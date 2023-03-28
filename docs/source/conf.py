@@ -22,7 +22,6 @@ exclude_patterns = []
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 extensions = [
     'sphinx_rtd_theme',
-    'rst2pdf.pdfbuilder'
 ]
 
 latex_elements = {
