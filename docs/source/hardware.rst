@@ -62,10 +62,10 @@ servomotors will then be sent remotely from the server towards the
 client via the network.
 
 In the case of connecting via Arduino, the code attached to the 
-**Client / Arduino directory must be uploaded to the Arduino board** . 
+**Client / Arduino** directory must be uploaded to the Arduino board. 
 The code should be uploaded to the Arduino, e.g. using the Arduino IDE. 
 In the case of connection via Raspberry, the client application from the
-**Client / PC directory, Raspberry** must be uploaded to Rasberry.
+**Client / PC, Raspberry** directory must be uploaded to Rasberry.
 
 The project requires two servos to work: one for movement along the
 X (horizontal) axis, the other for movement along the Y (vertical) axis.
@@ -79,9 +79,9 @@ In order for commands to servos to be transmitted at all,
 the **Enabled** in the **Servo menu** in the server application must be
 enabled. For a locally connected servo, select the serial port for
 communication with a local controller (e.g. Arduino) in the same menu,
-it can be done in the menu **Servo / Local / (port name)** For a
+it can be done in the menu **Servo > Local > (port name)**. For a
 remotely connected device (e.g. using a Raspberry client) select the
-appropriate remote option in the menu **Servo / Remote / (IP address of the remote device)**.
+appropriate remote option in the menu **Servo > Remote > (IP address of the remote device)**.
 
 In the application, you can optionally activate movement only along a given axis (X
 or Y) using the appropriate option in the **Servo** menu. Thanks to this, you can 
@@ -120,7 +120,7 @@ further part of the documentation.
 360 degree servos will be supported in future releases.
 
 **Note:** when transmitting commands responsible for the movement of the
-servo, the **Lock Center** option in the **View / Image > Lock Center**
+servo, the **Lock Center** option in the **Rendering > Lock Center**
 menu will always be enabled. The option is activated automatically when
 you enable sending commands to the server. To disable it, you must first
 disconnect from the servomotors. This behaviour does not apply to the video source
