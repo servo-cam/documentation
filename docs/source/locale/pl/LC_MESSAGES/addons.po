@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SERVO CAM\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-30 23:16+0200\n"
-"PO-Revision-Date: 2023-03-30 23:17+0200\n"
+"POT-Creation-Date: 2023-03-30 23:49+0200\n"
+"PO-Revision-Date: 2023-03-30 23:49+0200\n"
 "Last-Translator: \n"
 "Language-Team: pl <LL@li.org>\n"
 "Language: pl\n"
@@ -81,10 +81,8 @@ msgid "**Linux:** ``/home/user/.config/servocam_org/config.ini``"
 msgstr "**Linux:** ``/home/user/.config/servocam_org/config.ini``"
 
 #: ../../source/addons.rst:49
-msgid ""
-"**Windows:** ``C:\\\\Users\\\\user\\\\.config\\\\servocam_org\\\\config.ini``"
-msgstr ""
-"**Windows:** ``C:\\\\Users\\\\user\\\\.config\\\\servocam_org\\\\config.ini``"
+msgid "**Windows:** ``C:\\Users\\user\\.config\\servocam_org\\config.ini``"
+msgstr "**Windows:** ``C:\\Users\\user\\.config\\servocam_org\\config.ini``"
 
 #: ../../source/addons.rst:53
 msgid "**Syntax:** key - description, type [possible values] (default value)"
@@ -131,47 +129,43 @@ msgid "# app.model = opencv_movement_detect_multi"
 msgstr "# app.model = opencv_movement_detect_multi"
 
 #: ../../source/addons.rst:75
-msgid "**app.source** - default mode, string [local|video|stream|remote] (video)"
+msgid "**app.source** - default mode, string [cam|video|stream|remote] (cam)"
 msgstr ""
-"**app.source** - domyślny tryb pracy, string [local|video|stream|remote] (video)"
+"**app.source** - domyślny tryb pracy, string [cam|video|stream|remote] (cam)"
 
 #: ../../source/addons.rst:78
-msgid "**app.video_url** - default video file, string (./mp4/whatislove.mp4)"
-msgstr "**app.video_url** - domyślny plik video, string (./mp4/whatislove.mp4)"
+msgid "**app.video_url** - default video file, string"
+msgstr "**app.video_url** - domyślny plik video, string"
 
 #: ../../source/addons.rst:80
 msgid "**app.stream_url** - default URL with stream, string"
 msgstr "**app.stream_url** - domyślny adres URL ze streamem, string"
 
 #: ../../source/addons.rst:82
-msgid ""
-"**app.remote_host** - default remote host, string (https://assets.afcdn.com/"
-"video49/20210722/v_645516.m3u8)"
-msgstr ""
-"**app.remote_host** - domyślny zdalny host, string (https://assets.afcdn.com/"
-"video49/20210722/v_645516.m3u8)"
+msgid "**app.remote_host** - default remote host, string"
+msgstr "**app.remote_ip** - domyślny zdalny host, string"
 
-#: ../../source/addons.rst:85
+#: ../../source/addons.rst:84
 msgid "**app.remote_ip** - default remote IP, string"
 msgstr "**app.remote_ip** - domyślne zdalne IP, string"
 
-#: ../../source/addons.rst:87
+#: ../../source/addons.rst:86
 msgid "**app.disabled** - on/off pause in the application, bool [1|0] (0)"
 msgstr "**app.disabled** - wł/wył. pauzę w aplikacji, bool [1|0] (0)"
 
-#: ../../source/addons.rst:89
+#: ../../source/addons.rst:88
 msgid "**app.ai** - on/off AI in application, bool [1|0] (1)"
 msgstr "**app.ai** - wł/wył. AI w aplikacji, bool [1|0] (1)"
 
-#: ../../source/addons.rst:91
+#: ../../source/addons.rst:90
 msgid "**app.debug** - on/off debugger in the application, bool [1|0] (1)"
 msgstr "**app.debug** - wł/wył debugger w aplikacji, bool [1|0] (1)"
 
-#: ../../source/addons.rst:93
+#: ../../source/addons.rst:92
 msgid "**security.web.token** - security token for web application, string"
 msgstr "**security.web.token** - token zabezpieczajacy dla webaplikacji, string"
 
-#: ../../source/addons.rst:95
+#: ../../source/addons.rst:94
 msgid ""
 "**security.aes.video** - on/off video image encryption using AES during "
 "connection, bool [1|0] (1)"
@@ -179,7 +173,7 @@ msgstr ""
 "**security.aes.video** - wł/wył. szyfrowanie obrazu video za pomocą AES podczas "
 "połączenia, bool [1|0] (1)"
 
-#: ../../source/addons.rst:98
+#: ../../source/addons.rst:97
 msgid ""
 "**security.aes.data** - on/off data encryption using AES while connections, bool "
 "[1|0] (1)"
@@ -187,7 +181,7 @@ msgstr ""
 "**security.aes.data** - wł/wył. szyfrowanie danych za pomocą AES podczas "
 "połączenia, bool [1|0] (1)"
 
-#: ../../source/addons.rst:101
+#: ../../source/addons.rst:100
 msgid ""
 "**security.aes.key** - 16 character-length secret encryption key, must be the "
 "same on the client and on the server, string"
@@ -195,53 +189,53 @@ msgstr ""
 "**security.aes.key** - 16 znakowy tajny klucz szyfrujący, musi być taki sam na "
 "kliencie i na serwerze, string"
 
-#: ../../source/addons.rst:104
+#: ../../source/addons.rst:103
 msgid "**camera.idx** - default camera index, integer (0)"
 msgstr "**camera.idx** - indeks domyślnej kamery, integer (0)"
 
-#: ../../source/addons.rst:106
+#: ../../source/addons.rst:105
 msgid "**camera.fov.x** - FOV in X axis /horizontal/ in degrees, integer (100)"
 msgstr "**camera.fov.x** - FOV w osi X /poziomy/ w stopniach, integer (100)"
 
-#: ../../source/addons.rst:108
+#: ../../source/addons.rst:107
 msgid "**camera.fov.y** - FOV in Y axis /vertical in degrees/, integer (68)"
 msgstr "**camera.fov.y** - FOV w osi Y /pionowy w stopniach/, integer (68)"
 
-#: ../../source/addons.rst:110
+#: ../../source/addons.rst:109
 msgid "**camera.width** - width of the captured video in px, integer (1280)"
 msgstr "**camera.width** - szerokość przechwytywanego obrazu w px, integer (1280)"
 
-#: ../../source/addons.rst:113
+#: ../../source/addons.rst:112
 msgid "**camera.height** - height of the captured video in px, integer (720)"
 msgstr "**camera.height** - wysokość przechwytywanego obrazu w px, integer (720)"
 
-#: ../../source/addons.rst:115
+#: ../../source/addons.rst:114
 msgid ""
 "**camera.fps** - number of frames of the captured video per second, integer (30)"
 msgstr ""
 "**camera.fps** - ilość klatek przechwytywanego obrazu na sekundę, integer (30)"
 
-#: ../../source/addons.rst:118
+#: ../../source/addons.rst:117
 msgid "**servo.enabled** - on/off. servo, bool [1|0] (1)"
 msgstr "**servo.enabled** - wł/wył.. serwomechanizm, bool [1|0] (1)"
 
-#: ../../source/addons.rst:120
+#: ../../source/addons.rst:119
 msgid "**servo.enabled.x** - on/off x-axis, bool [1|0] (1)"
 msgstr "**servo.enabled.x** - wł/wył. oś X, bool [1|0] (1)"
 
-#: ../../source/addons.rst:122
+#: ../../source/addons.rst:121
 msgid "**servo.enabled.y** - on/off Y axis, bool [1|0] (1)"
 msgstr "**servo.enabled.y** - wł/wył. oś Y, bool [1|0] (1)"
 
-#: ../../source/addons.rst:124
+#: ../../source/addons.rst:123
 msgid "**servo.local** - default local port address, string"
 msgstr "**servo.local** - domyślny adres portu lokalnego, string"
 
-#: ../../source/addons.rst:126
+#: ../../source/addons.rst:125
 msgid "**servo.remote** - default IP address of the remote client, string"
 msgstr "**servo.remote** - domyślny adres IP zdalnego klienta, string"
 
-#: ../../source/addons.rst:128
+#: ../../source/addons.rst:127
 msgid ""
 "**servo.map_fov** - on/off mapping the FOV of the camera to the movement of the "
 "mechanism, bool [1|0] (1)"
@@ -249,7 +243,7 @@ msgstr ""
 "**servo.map_fov** - wł/wył. mapowanie FOV kamery na ruch mechanizmu, bool [1|0] "
 "(1)"
 
-#: ../../source/addons.rst:131
+#: ../../source/addons.rst:130
 msgid ""
 "**servo.use_limit** = on/off mapping by limit instead of max angle, bool [1|0] "
 "(0)"
@@ -257,7 +251,7 @@ msgstr ""
 "**servo.use_limit** = wł/wył. mapowanie wg limitu, zamiast max angle, bool [1|0] "
 "(0)"
 
-#: ../../source/addons.rst:134
+#: ../../source/addons.rst:133
 msgid ""
 "**servo.angle.start.x** - initial deflection of the servo in the X axis, integer "
 "(90)"
@@ -265,7 +259,7 @@ msgstr ""
 "**servo.angle.start.x** - inicjalne wychylenie serwomechanizmu w osi X, integer "
 "(90)"
 
-#: ../../source/addons.rst:137
+#: ../../source/addons.rst:136
 msgid ""
 "**servo.angle.start.y** - initial deflection of the servo in the Y axis, integer "
 "(90)"
@@ -273,7 +267,7 @@ msgstr ""
 "**servo.angle.start.y** - inicjalne wychylenie serwomechanizmu w osi Y, integer "
 "(90)"
 
-#: ../../source/addons.rst:140
+#: ../../source/addons.rst:139
 msgid ""
 "**servo.angle.min.x** - min. deflection of the servo in the X axis, integer (0) "
 "# servo parameter"
@@ -281,7 +275,7 @@ msgstr ""
 "**servo.angle.min.x** - min. wychylenie serwomechanizmu w osi X, integer (0) # "
 "parametr serwa"
 
-#: ../../source/addons.rst:143
+#: ../../source/addons.rst:142
 msgid ""
 "**servo.angle.min.y** - min. deflection of the servo in the Y axis, integer (0) "
 "# servo parameter"
@@ -289,7 +283,7 @@ msgstr ""
 "**servo.angle.min.y** - min. wychylenie serwomechanizmu w osi Y, integer (0) # "
 "parametr serwa"
 
-#: ../../source/addons.rst:146
+#: ../../source/addons.rst:145
 msgid ""
 "**servo.angle.max.x** - max. deflection of the servo in the X axis, integer "
 "(180) # servo parameter"
@@ -297,7 +291,7 @@ msgstr ""
 "**servo.angle.max.x** - max. wychylenie serwomechanizmu w osi X, integer (180) # "
 "parametr serwa"
 
-#: ../../source/addons.rst:149
+#: ../../source/addons.rst:148
 msgid ""
 "**servo.angle.max.y** - max. deflection of the servo in the Y axis, integer "
 "(180) # servo parameter"
@@ -305,7 +299,7 @@ msgstr ""
 "**servo.angle.max.y** - max. wychylenie serwomechanizmu w osi Y, integer (180) # "
 "parametr serwa"
 
-#: ../../source/addons.rst:152
+#: ../../source/addons.rst:151
 msgid ""
 "**servo.limit.min.x** - min. allowed movement of the servo in the X axis, "
 "integer(0) # physical, real possibility"
@@ -313,7 +307,7 @@ msgstr ""
 "**servo.limit.min.x** - min. dozwolony ruch serwomechanizmu w osi X, integer (0) "
 "# fizyczna, realna możliwość"
 
-#: ../../source/addons.rst:155
+#: ../../source/addons.rst:154
 msgid ""
 "**servo.limit.min.y** - min. allowed movement of the servo in the Y axis, "
 "integer(0) # physical, real possibility"
@@ -321,7 +315,7 @@ msgstr ""
 "**servo.limit.min.y** - min. dozwolony ruch serwomechanizmu w osi Y, integer (0) "
 "# fizyczna, realna możliwość"
 
-#: ../../source/addons.rst:158
+#: ../../source/addons.rst:157
 msgid ""
 "**servo.limit.max.x** - max. allowed movement of the servo in the X axis, "
 "integer (180) # physical, real possibility"
@@ -329,7 +323,7 @@ msgstr ""
 "**servo.limit.max.x** - max. dozwolony ruch serwomechanizmu w osi X, integer "
 "(180) # fizyczna, realna możliwość"
 
-#: ../../source/addons.rst:161
+#: ../../source/addons.rst:160
 msgid ""
 "**servo.limit.max.y** - max. allowed movement of the servo in the Y axis, "
 "integer (180) # physical, real possibility"
@@ -337,7 +331,7 @@ msgstr ""
 "**servo.limit.max.y** - max. dozwolony ruch serwomechanizmu w osi Y, integer "
 "(180) # fizyczna, realna możliwość"
 
-#: ../../source/addons.rst:164
+#: ../../source/addons.rst:163
 msgid ""
 "**servo.angle.step.x** = min. difference in angles for sending the w command X "
 "axis, integer (1)"
@@ -345,7 +339,7 @@ msgstr ""
 "**servo.angle.step.x** = min. różnica w kątach dla wysłania komendy w osi X, "
 "integer (1)"
 
-#: ../../source/addons.rst:167
+#: ../../source/addons.rst:166
 msgid ""
 "**servo.angle.step.y** = min. difference in angles for sending the w command Y "
 "axis, integer (1)"
@@ -353,21 +347,21 @@ msgstr ""
 "**servo.angle.step.y** = min. różnica w kątach dla wysłania komendy w osi Y, "
 "integer (1)"
 
-#: ../../source/addons.rst:170
+#: ../../source/addons.rst:169
 msgid ""
 "**servo.angle.multiplier.x** - multiplier of steps in the X axis, integer (1)"
 msgstr "**servo.angle.multiplier.x** - mnożnik kroków w osi X, integer (1)"
 
-#: ../../source/addons.rst:172
+#: ../../source/addons.rst:171
 msgid ""
 "**servo.angle.multiplier.y** - multiplier of steps in the Y axis, integer (1)"
 msgstr "**servo.angle.multiplier.y** - mnożnik kroków w osi Y, integer (1)"
 
-#: ../../source/addons.rst:174
+#: ../../source/addons.rst:173
 msgid "**server.port.data** - port for sending data on the client, integer (6666)"
 msgstr "**server.port.data** - port dla wysyłki danych na kliencie, integer (6666)"
 
-#: ../../source/addons.rst:177
+#: ../../source/addons.rst:176
 msgid ""
 "**server.port.conn** - port for initiating connection on the client, integer "
 "(6667)"
@@ -375,21 +369,21 @@ msgstr ""
 "**server.port.conn** - port dla inicjowania połaczenia na kliencie, integer "
 "(6667)"
 
-#: ../../source/addons.rst:180
+#: ../../source/addons.rst:179
 msgid ""
 "**server.port.status** - port for receiving status from the client, integer "
 "(6668)"
 msgstr ""
 "**server.port.status** - port dla odbioru statusu od klienta, integer (6668)"
 
-#: ../../source/addons.rst:183
+#: ../../source/addons.rst:182
 msgid ""
 "**serial.data.baud_rate** – transfer speed for serial connections, int (9600)"
 msgstr ""
 "**serial.data.baud_rate** – prędkość transferu dla połaczeń szeregowych, int "
 "(9600)"
 
-#: ../../source/addons.rst:186
+#: ../../source/addons.rst:185
 msgid ""
 "**serial.data.format** - format of data sent to the device by serial port, "
 "string [RAW|JSON] (RAW)"
@@ -397,7 +391,7 @@ msgstr ""
 "**serial.data.format** - format danych wysyłanych do urządzenia przez port "
 "szeregowy, string [RAW|JSON] (RAW)"
 
-#: ../../source/addons.rst:189
+#: ../../source/addons.rst:188
 msgid ""
 "**clients.conn_wait** - max. waiting time in seconds for the next connection, "
 "integer (5)"
@@ -405,7 +399,7 @@ msgstr ""
 "**clients.conn_wait** - max. czas oczekiwania w sekundach na nast. połączenie, "
 "integer (5)"
 
-#: ../../source/addons.rst:192
+#: ../../source/addons.rst:191
 msgid ""
 "**clients.hang_time** - max. time to consider a call on hold, w seconds, integer "
 "(5)"
@@ -413,7 +407,7 @@ msgstr ""
 "**clients.hang_time** - max. czas do uznania połączenia za zawieszone, w "
 "sekundach, integer (5)"
 
-#: ../../source/addons.rst:195
+#: ../../source/addons.rst:194
 msgid ""
 "**clients.inactive_time** - time until the connection is considered inactive, w "
 "seconds, integer (5)"
@@ -421,7 +415,7 @@ msgstr ""
 "**clients.inactive_time** - czas do uznania połączenia za nieaktywne, w "
 "sekundach, integer (5)"
 
-#: ../../source/addons.rst:198
+#: ../../source/addons.rst:197
 msgid ""
 "**clients.stream.jpeg** - enable/disable JPEG decompression, required if client "
 "compression is enabled, bool [1|0] (0)"
@@ -429,46 +423,46 @@ msgstr ""
 "**clients.stream.jpeg** - wł./wył dekompresję JPEG, wymagane jeśli włączona jest "
 "kompresja u klienta, bool [1|0] (0)"
 
-#: ../../source/addons.rst:201
+#: ../../source/addons.rst:200
 msgid "**target.mode** - default auto mode, string [OFF|IDLE|FOLLOW|PATROL] (IDLE)"
 msgstr ""
 "**target.mode** - domyślny tryb auto, string [OFF|IDLE|FOLLOW|PATROL] (IDLE)"
 
-#: ../../source/addons.rst:204
+#: ../../source/addons.rst:203
 msgid "**target.point** - default aiming point [AUTO|HEAD|NECK|BODY|LEGS] (CAR)"
 msgstr ""
 "**target.point** - domyślny punkt celowania [AUTO|HEAD|NECK|BODY|LEGS] (AUTO)"
 
-#: ../../source/addons.rst:207
+#: ../../source/addons.rst:206
 msgid "**target.locked** - on/off locating on object, bool [1|0] (0)"
 msgstr "**target.locked** - wł/wył. lokowanie na obiekcie, bool [1|0] (0)"
 
-#: ../../source/addons.rst:209
+#: ../../source/addons.rst:208
 msgid "**target.single** - on/off placing on a single target, , bool [1|0] (0)"
 msgstr "**target.single** - wł/wył. lokowanie na pojedyńczym celu, bool [1|0] (0)"
 
-#: ../../source/addons.rst:212
+#: ../../source/addons.rst:211
 msgid "**target.delay** - delay in aiming auto, float (0.40)"
 msgstr "**target.delay** - opóźnienie w celowaniu auto, float (0.40)"
 
-#: ../../source/addons.rst:214
+#: ../../source/addons.rst:213
 msgid "**target.speed** - aiming speed multiplier, float (0.1)"
 msgstr "**target.speed** - mnożnik prędkości przy celowaniu, float (0.1)"
 
-#: ../../source/addons.rst:216
+#: ../../source/addons.rst:215
 msgid ""
 "**target.smooth** - multiplier for smoothing movement when aiming, float (1.6)"
 msgstr "**target.smooth** - mnożnik wygładzania ruchu przy celowaniu, float (1.6)"
 
-#: ../../source/addons.rst:219
+#: ../../source/addons.rst:218
 msgid "**target.threshold.x** - value slowing down in the X axis (0.15)"
 msgstr "**target.threshold.x** - wartość spowalniająca w osi X (0.15)"
 
-#: ../../source/addons.rst:221
+#: ../../source/addons.rst:220
 msgid "**target.threshold.y** - value slowing down in the Y axis (0.15)"
 msgstr "**target.threshold.y** - wartość spowalniająca w osi Y (0.15)"
 
-#: ../../source/addons.rst:223
+#: ../../source/addons.rst:222
 msgid ""
 "**target.brake** - on/off traffic blanking in the absence of a target, bool [1|"
 "0] (1)"
@@ -476,31 +470,31 @@ msgstr ""
 "**target.brake** - wł/wył. wygaszanie ruchu w przypadku braku celu, bool [1|0] "
 "(1)"
 
-#: ../../source/addons.rst:226
+#: ../../source/addons.rst:225
 msgid "**target.smooth.follow** - on/off tracking motion smoothing, bool [1|0] (0)"
 msgstr ""
 "**target.smooth.follow** - wł/wył. wygładzanie ruchu śledzenia, bool [1|0] (0)"
 
-#: ../../source/addons.rst:229
+#: ../../source/addons.rst:228
 msgid "**target.smooth.camera** - camera smoothing on/off, bool [1|0] (1)"
 msgstr "**target.smooth.camera** - wł/wył wygładzania ruchu kamery, bool [1|0] (1)"
 
-#: ../../source/addons.rst:232
+#: ../../source/addons.rst:231
 msgid ""
 "**target.mean.target** - on/off smoothing target coordinates, bool [1|0] (1)"
 msgstr ""
 "**target.mean.target** - wł/wył. wygładzanie koordynat celu, bool [1|0] (1)"
 
-#: ../../source/addons.rst:235
+#: ../../source/addons.rst:234
 msgid "**target.mean.now** - on/off smoothing tracking coordinates, bool [1|0] (1)"
 msgstr ""
 "**target.mean.now** - wł/wył. wygładzanie koordynat śledzenia, bool [1|0] (1)"
 
-#: ../../source/addons.rst:238
+#: ../../source/addons.rst:237
 msgid "**target.mean.cam** - on/off smoothing camera coordinates, bool [1|0] (0)"
 msgstr "**target.mean.cam** - wł/wył. wygładzanie koordynat kamery, bool [1|0] (0)"
 
-#: ../../source/addons.rst:241
+#: ../../source/addons.rst:240
 msgid ""
 "**target.mean.target.step** - min. movement required during smoothing target "
 "coordinate, float (0.005)"
@@ -508,7 +502,7 @@ msgstr ""
 "**target.mean.target.step** - min. wymagany ruch podczas wygładzania koordynat "
 "celu, float (0.005)"
 
-#: ../../source/addons.rst:244
+#: ../../source/addons.rst:243
 msgid ""
 "**target.mean.now.step** - min. movement required during smoothing tracking "
 "coordinate, float (0.01)"
@@ -516,7 +510,7 @@ msgstr ""
 "**target.mean.now.step** - min. wymagany ruch podczas wygładzania koordynat "
 "śledzenia, float (0.01)"
 
-#: ../../source/addons.rst:247
+#: ../../source/addons.rst:246
 msgid ""
 "**target.mean.cam.step** - min. movement required during smoothing camera "
 "coordinates, float (0.01)"
@@ -524,7 +518,7 @@ msgstr ""
 "**target.mean.cam.step** - min. wymagany ruch podczas wygładzania koordynat "
 "kamery, float (0.01)"
 
-#: ../../source/addons.rst:250
+#: ../../source/addons.rst:249
 msgid ""
 "**target.mean.target.depth** - number of records of previous moves during "
 "smoothing target coordinates, integer (2)"
@@ -532,7 +526,7 @@ msgstr ""
 "**target.mean.target.depth** - ilość zapisów poprzednich ruchów podczas "
 "wygładzania koordynat celu, integer (2)"
 
-#: ../../source/addons.rst:253
+#: ../../source/addons.rst:252
 msgid ""
 "**target.mean.now.depth** - number of records of previous moves during tracking "
 "coordinate smoothing, integer (2)"
@@ -540,7 +534,7 @@ msgstr ""
 "**target.mean.now.depth** - ilość zapisów poprzednich ruchów podczas wygładzania "
 "koordynat śledzenia, integer (2)"
 
-#: ../../source/addons.rst:256
+#: ../../source/addons.rst:255
 msgid ""
 "**target.mean.cam.depth** - number of records of previous moves during smoothing "
 "camera coordinates, integer (2)"
@@ -548,11 +542,11 @@ msgstr ""
 "**target.mean.cam.depth** - ilość zapisów poprzednich ruchów podczas wygładzania "
 "koordynat kamery, integer (2)"
 
-#: ../../source/addons.rst:259
+#: ../../source/addons.rst:258
 msgid "**target.action.name** - default action, string [A1|A2|A3|B4|B5|B6] (A1)"
 msgstr "**target.action.name** - domyślna akcja, string [A1|A2|A3|B4|B5|B6] (A1)"
 
-#: ../../source/addons.rst:261
+#: ../../source/addons.rst:260
 msgid ""
 "**target.action.mode** - default action mode, string [SINGLE|CONTINUOUS|SERIES|"
 "TOGGLE] (CONTINUOUS)"
@@ -560,65 +554,65 @@ msgstr ""
 "**target.action.mode** - domyślny tryb dla akcji, string [SINGLE|CONTINUOUS|"
 "SERIES|TOGGLE] (CONTINUOUS)"
 
-#: ../../source/addons.rst:264
+#: ../../source/addons.rst:263
 msgid "**target.action.enable** - on/off auto actions, bool [1|0] (0)"
 msgstr "**target.action.enable** - wł/wył. auto akcje, bool [1|0] (0)"
 
-#: ../../source/addons.rst:266
+#: ../../source/addons.rst:265
 msgid "**target.action.length** - duration of the action, integer (10)"
 msgstr "**target.action.length** - długość czasu trwania akcji, integer (10)"
 
-#: ../../source/addons.rst:268
+#: ../../source/addons.rst:267
 msgid ""
 "**target.action.switch** - length of interval between target change, integer "
 "(thirty)"
 msgstr ""
 "**target.action.switch** - długość odstępu między zmianą celu, integer (30)"
 
-#: ../../source/addons.rst:271
+#: ../../source/addons.rst:270
 msgid "**target.time.before_target** - time required before targeting, float (0.3)"
 msgstr ""
 "**target.time.before_target** - czas wymagany przed namierzeniem, float (0.3)"
 
-#: ../../source/addons.rst:274
+#: ../../source/addons.rst:273
 msgid "**target.time.as_target** - time to be considered targeted, integer (3)"
 msgstr "**target.time.as_target** - czas do uznania za namierzony, integer (3)"
 
-#: ../../source/addons.rst:276
+#: ../../source/addons.rst:275
 msgid "**target.time.as_lost** - time to be considered lost, integer (30)"
 msgstr "**target.time.as_lost** - czas do uznania za stracony, integer (30)"
 
-#: ../../source/addons.rst:278
+#: ../../source/addons.rst:277
 msgid "**target.limit.on_target** - max. counter on target, integer (999)"
 msgstr "**target.limit.on_target** - max. licznik na celu, integer (999)"
 
-#: ../../source/addons.rst:280
+#: ../../source/addons.rst:279
 msgid ""
 "**patrol.timeout** - waiting time for starting the patrol /ms/, integer (2000)"
 msgstr ""
 "**patrol.timeout** - czas oczekiwania na uruchomienie patrolu /ms/, integer "
 "(2000)"
 
-#: ../../source/addons.rst:283
+#: ../../source/addons.rst:282
 msgid "**patrol.step** - patrol movement step, float (0.005)"
 msgstr "**patrol.step** - krok ruchu podczas patrolu, float (0.005)"
 
-#: ../../source/addons.rst:285
+#: ../../source/addons.rst:284
 msgid "**patrol.interval** - time interval for patrol traffic, integer (600)"
 msgstr "**patrol.interval** - interwał czasowy dla ruchu patrolu, integer (600)"
 
-#: ../../source/addons.rst:287
+#: ../../source/addons.rst:286
 msgid ""
 "**patrol.direction** - default patrol direction, string [LEFT|RIGHT] (RIGHT)"
 msgstr ""
 "**patrol.direction** - domyślny kierunek ruchu w patrolu, string [LEFT|RIGHT] "
 "(RIGHT)"
 
-#: ../../source/addons.rst:290
+#: ../../source/addons.rst:289
 msgid "**manual.speed** - default speed of manual control, integer (20)"
 msgstr "**manual.speed** - domyślna prędkość sterowania manualnego, integer (20)"
 
-#: ../../source/addons.rst:292
+#: ../../source/addons.rst:291
 msgid ""
 "**manual.action.mode** - default action mode for manual control, string [OFF|"
 "SINGLE|CONTINUOUS|SERIES|TOGGLE] (OFF)"
@@ -626,75 +620,75 @@ msgstr ""
 "**manual.action.mode** - domyślny tryb akcji przy sterowaniu manualnym, string "
 "[OFF|SINGLE|CONTINUOUS|SERIES|TOGGLE] (OFF)"
 
-#: ../../source/addons.rst:295
+#: ../../source/addons.rst:294
 msgid "**render.full_screen** - on/off fullscreen, bool [1|0] (0)"
 msgstr "**render.full_screen** - wł/wył. pełny ekran, bool [1|0] (0)"
 
-#: ../../source/addons.rst:297
+#: ../../source/addons.rst:296
 msgid "**render.fit** - on/off fit to screen, bool [1|0] (1)"
 msgstr "**render.fit** - wł/wył. dopasowanie do ekranu, bool [1|0] (1)"
 
-#: ../../source/addons.rst:299
+#: ../../source/addons.rst:298
 msgid "**render.tracking** - on/off display trace, bool [1|0] (1)"
 msgstr "**render.tracking** - wł/wył. wyśw. śledzenia, bool [1|0] (1)"
 
-#: ../../source/addons.rst:301
+#: ../../source/addons.rst:300
 msgid "**render.targeting** - on/off display aiming, bool [1|0] (1)"
 msgstr "**render.targeting** - wł/wył. wyśw. celowania, bool [1|0] (1)"
 
-#: ../../source/addons.rst:303
+#: ../../source/addons.rst:302
 msgid "**render.bounds** - on/off display boxes, bool [1|0] (1)"
 msgstr "**render.bounds** - wł/wył. wyśw. boxów, bool [1|0] (1)"
 
-#: ../../source/addons.rst:305
+#: ../../source/addons.rst:304
 msgid "**render.labels** - on/off display labels, bool [1|0] (1)"
 msgstr "**render.labels** - wł/wył. wyśw. etykiet, bool [1|0] (1)"
 
-#: ../../source/addons.rst:307
+#: ../../source/addons.rst:306
 msgid "**render.text** - on/off display text, bool [1|0] (1)"
 msgstr "**render.text** - wł/wył. wyśw. tekstu, bool [1|0] (1)"
 
-#: ../../source/addons.rst:309
+#: ../../source/addons.rst:308
 msgid "**render.zoom** - zoom value, integer (0)"
 msgstr "**render.zoom** - wartość zoom-u, integer (0)"
 
-#: ../../source/addons.rst:311
+#: ../../source/addons.rst:310
 msgid "**render.minimized** - on/off minimized on start, bool [1|0] (0)"
 msgstr "**render.minimized** - wł/wył. zminimalizowany na starcie, bool [1|0] (0)"
 
-#: ../../source/addons.rst:314
+#: ../../source/addons.rst:313
 msgid "**render.maximized** - on/off maximized on start, bool [1|0] (0)"
 msgstr "**render.maximized** - wł/wył. zmaxymalizowany na starcie, bool [1|0] (0)"
 
-#: ../../source/addons.rst:317
+#: ../../source/addons.rst:316
 msgid "**render.console** - on/off display console, bool [1|0] (1)"
 msgstr "**render.console** - wł/wył. wyśw. konsoli, bool [1|0] (1)"
 
-#: ../../source/addons.rst:319
+#: ../../source/addons.rst:318
 msgid "**render.simulator** - on/off servo motion simulator, bool [1|0] (0)"
 msgstr "**render.simulator** - wł/wył. symulator ruchu serwa, bool [1|0] (0)"
 
-#: ../../source/addons.rst:321
+#: ../../source/addons.rst:320
 msgid "**render.montage.cols** - number of columns in preview mode, integer (2)"
 msgstr "**render.montage.cols** - ilość kolumn w trybie podglądu, integer (2)"
 
-#: ../../source/addons.rst:323
+#: ../../source/addons.rst:322
 msgid "**render.montage.rows** - number of rows in preview mode, integer (2)"
 msgstr "**render.montage.rows** - ilość wierszy w trybie podglądu, integer (2)"
 
-#: ../../source/addons.rst:325
+#: ../../source/addons.rst:324
 msgid "**render.montage.width** - box width in px in preview mode, integer (400)"
 msgstr ""
 "**render.montage.width** - szerokość boxa w px w trybie podglądu, integer (400)"
 
-#: ../../source/addons.rst:328
+#: ../../source/addons.rst:327
 msgid ""
 "**render.overlay.status.font.size** - font size for text for overlay, integer (1)"
 msgstr ""
 "**render.overlay.status.font.size** - rozmiar czcionki dla tekstu dla overlaya, "
 "integer (1)"
 
-#: ../../source/addons.rst:331
+#: ../../source/addons.rst:330
 msgid ""
 "**render.overlay.status.font.thickness** - font thickness for text for overlay, "
 "integer (1)"
@@ -702,19 +696,19 @@ msgstr ""
 "**render.overlay.status.font.thickness** - grubość czcionki dla tekstu dla "
 "overlaya, integer (1)"
 
-#: ../../source/addons.rst:334
+#: ../../source/addons.rst:333
 msgid "**video.loop** - on/off video loop, bool [1|0] (1)"
 msgstr "**video.loop** - wł/wył. zapętlenie obrazu video, bool [1|0] (1)"
 
-#: ../../source/addons.rst:336
+#: ../../source/addons.rst:335
 msgid "**stream.loop** - on/off image loop for stream, bool [1|0] (1)"
 msgstr "**stream.loop** - wł/wył. zapętlenie obrazu dla streamu, bool [1|0] (1)"
 
-#: ../../source/addons.rst:338
+#: ../../source/addons.rst:337
 msgid "**area.target** - on/off area for tracking, bool [1|0] (0)"
 msgstr "**area.target** - wł/wył. obszar dla śledzenia, bool [1|0] (0)"
 
-#: ../../source/addons.rst:340
+#: ../../source/addons.rst:339
 msgid ""
 "**area.target.world** - on/off mapping to the world of the area for trace, bool "
 "[1|0] (0)"
@@ -722,31 +716,31 @@ msgstr ""
 "**area.target.world** - wł/wył. mapowanie do świata obszaru dla śledzenia, bool "
 "[1|0] (0)"
 
-#: ../../source/addons.rst:343
+#: ../../source/addons.rst:342
 msgid ""
 "**area.target.x** - X coordinate, normalized in the range between 0-1, float (0)"
 msgstr ""
 "**area.target.x** - współrzędna X, znormalizowana w zakresie 0-1, float (0)"
 
-#: ../../source/addons.rst:346
+#: ../../source/addons.rst:345
 msgid ""
 "**area.target.y** - Y coordinate, normalized in the range between 0-1, float (0)"
 msgstr ""
 "**area.target.y** - współrzędna Y, znormalizowana w zakresie 0-1, float (0)"
 
-#: ../../source/addons.rst:349
+#: ../../source/addons.rst:348
 msgid "**area.target.w** - width, normalized in the range between 0-1, float (0)"
 msgstr "**area.target.w** - szerokość, znormalizowana w zakresie 0-1, float (0)"
 
-#: ../../source/addons.rst:351
+#: ../../source/addons.rst:350
 msgid "**area.target.h** - height, normalized in the range between 0-1, float (0)"
 msgstr "**area.target.h** - wysokość, znormalizowana w zakresie 0-1, float (0)"
 
-#: ../../source/addons.rst:353
+#: ../../source/addons.rst:352
 msgid "**area.patrol** - on/off patrol area, bool [1|0] (0/"
 msgstr "**area.patrol** - wł/wył. obszar dla patrolu, bool [1|0] (0)"
 
-#: ../../source/addons.rst:355
+#: ../../source/addons.rst:354
 msgid ""
 "**area.patrol.world** - on/off mapping to the world of the patrol area, bool [1|"
 "0] (0)"
@@ -754,31 +748,31 @@ msgstr ""
 "**area.patrol.world** - wł/wył. mapowanie do świata obszaru dla patrolu, bool [1|"
 "0] (0)"
 
-#: ../../source/addons.rst:358
+#: ../../source/addons.rst:357
 msgid ""
 "**area.patrol.x** - X coordinate, normalized in the range between 0-1, float (0)"
 msgstr ""
 "**area.patrol.x** - współrzędna X, znormalizowana w zakresie 0-1, float (0)"
 
-#: ../../source/addons.rst:361
+#: ../../source/addons.rst:360
 msgid ""
 "**area.patrol.y** - Y coordinate, normalized in the range between 0-1, float (0)"
 msgstr ""
 "**area.patrol.y** - współrzędna Y, znormalizowana w zakresie 0-1, float (0)"
 
-#: ../../source/addons.rst:364
+#: ../../source/addons.rst:363
 msgid "**area.patrol.w** - width, normalized in the range between 0-1, float (0)"
 msgstr "**area.patrol.w** - szerokość, znormalizowana w zakresie 0-1, float (0)"
 
-#: ../../source/addons.rst:366
+#: ../../source/addons.rst:365
 msgid "**area.patrol.h** - height, normalized in the range between 0-1, float (0)"
 msgstr "**area.patrol.h** - wysokość, znormalizowana w zakresie 0-1, float (0)"
 
-#: ../../source/addons.rst:368
+#: ../../source/addons.rst:367
 msgid "**area.action** - on/off area for action, bool [1|0] (0)"
 msgstr "**area.action** - wł/wył. obszar dla akcji, bool [1|0] (0)"
 
-#: ../../source/addons.rst:370
+#: ../../source/addons.rst:369
 msgid ""
 "**area.action.world** - on/off mapping to the world of the action area, bool [1|"
 "0] (0)"
@@ -786,27 +780,27 @@ msgstr ""
 "**area.action.world** - wł/wył. mapowanie do świata obszaru dla akcji, bool [1|"
 "0] (0)"
 
-#: ../../source/addons.rst:373
+#: ../../source/addons.rst:372
 msgid ""
 "**area.action.x** - X coordinate, normalized in the range between 0-1, float (0)"
 msgstr ""
 "**area.action.x** - współrzędna X, znormalizowana w zakresie 0-1, float (0)"
 
-#: ../../source/addons.rst:376
+#: ../../source/addons.rst:375
 msgid ""
 "**area.action.y** - Y coordinate, normalized in the range between 0-1, float (0)"
 msgstr ""
 "**area.action.y** - współrzędna Y, znormalizowana w zakresie 0-1, float (0)"
 
-#: ../../source/addons.rst:379
+#: ../../source/addons.rst:378
 msgid "**area.action.w** - width, normalized in the range between 0-1, float (0)"
 msgstr "**area.action.w** - szerokość, znormalizowana w zakresie 0-1, float (0)"
 
-#: ../../source/addons.rst:381
+#: ../../source/addons.rst:380
 msgid "**area.action.h** - height, normalized in the range between 0-1, float (0)"
 msgstr "**area.action.h** - wysokość, znormalizowana w zakresie 0-1, float (0)"
 
-#: ../../source/addons.rst:383
+#: ../../source/addons.rst:382
 msgid ""
 "**filter.detect.classes** - class names for the detection filter, string [class1,"
 "class2,class3,...]"
@@ -814,11 +808,11 @@ msgstr ""
 "**filter.detect.classes** - nazwy klas dla filtra wykrywania, string [klasa1,"
 "klasa2,klasa3,...]"
 
-#: ../../source/addons.rst:386
+#: ../../source/addons.rst:385
 msgid "**filter.detect.min_score** - min. detection score, float (0.2)"
 msgstr "**filter.detect.min_score** - min. punktacja dla wykrywania, float (0.2)"
 
-#: ../../source/addons.rst:388
+#: ../../source/addons.rst:387
 msgid ""
 "**filter.target.classes** - class names for the targeting filter, string [class1,"
 "class2,class3,...]"
@@ -826,11 +820,11 @@ msgstr ""
 "**filter.target.classes** - nazwy klas dla filtra namierzania, string [klasa1,"
 "klasa2,klasa3,...]"
 
-#: ../../source/addons.rst:391
+#: ../../source/addons.rst:390
 msgid "**filter.target.min_score** - min. score for pinpointing, float (0.2)"
 msgstr "**filter.target.min_score** - min. punktacja dla namierzania, float (0.2)"
 
-#: ../../source/addons.rst:394
+#: ../../source/addons.rst:393
 msgid ""
 "**filter.action.classes** - class names for the action filter, string [class1,"
 "class2,class3,...]"
@@ -838,11 +832,11 @@ msgstr ""
 "**filter.action.classes** - nazwy klas dla filtra akcji, string [klasa1,klasa2,"
 "klasa3,...]"
 
-#: ../../source/addons.rst:397
+#: ../../source/addons.rst:396
 msgid "**filter.action.min_score** - min. action score, float (0.2)"
 msgstr "**filter.action.min_score** - min. punktacja dla akcji, float (0.2)"
 
-#: ../../source/addons.rst:399
+#: ../../source/addons.rst:398
 msgid ""
 "**video_filter.input** - default video filters for input, string [filter1,"
 "filter2,filter3,...]"
@@ -850,7 +844,7 @@ msgstr ""
 "**video_filter.input** - domyślne filtry video dla wejścia, string [filtr1,"
 "filtr2,filtr3,...]"
 
-#: ../../source/addons.rst:402
+#: ../../source/addons.rst:401
 msgid ""
 "**video_filter.output** - default video filters for output, string [filter1,"
 "filter2,filter3,...]"
@@ -858,7 +852,7 @@ msgstr ""
 "**video_filter.output** - domyślne filtry video dla wyjścia, string [filtr1,"
 "filtr2,filtr3,...]"
 
-#: ../../source/addons.rst:405
+#: ../../source/addons.rst:404
 msgid ""
 "The analogous configuration for the web application is in the file **config.js** "
 "located in the **Web** directory."
@@ -866,393 +860,382 @@ msgstr ""
 "Analogiczna konfiguracja dla aplikacji webowej znajduje się w pliku **config."
 "js** znajdującym się w katalogu **Web**."
 
-#: ../../source/addons.rst:409
+#: ../../source/addons.rst:408
 msgid "Software - technical data"
 msgstr "Software - dane techniczne"
 
-#: ../../source/addons.rst:412
+#: ../../source/addons.rst:411
 msgid "Libraries used"
 msgstr "Użyte biblioteki"
 
-#: ../../source/addons.rst:414
+#: ../../source/addons.rst:413
 msgid "Python (python3) - v3.10"
 msgstr "Python (python3) - v3.10"
 
-#: ../../source/addons.rst:416
-msgid "PySide6 (PySide6) - v6.4.2"
+#: ../../source/addons.rst:415
+#, fuzzy
+msgid "PySide6 (PySide6-Essentials) - v6.4.2"
 msgstr "PySide6 (PySide6) - v6.4.2"
 
-#: ../../source/addons.rst:418
+#: ../../source/addons.rst:417
 msgid "Tensorflow (tensorflow) - v2.11.0"
 msgstr "Tensorflow (tensorflow) - v2.11.0"
 
-#: ../../source/addons.rst:420
+#: ../../source/addons.rst:419
 msgid "TensorflowHub (tensorflow-hub) - v0.12.0"
 msgstr "TensorflowHub (tensorflow-hub) - v0.12.0"
 
-#: ../../source/addons.rst:422
+#: ../../source/addons.rst:421
 msgid "OpenCV (opencv-python) - v4.7.0.72"
 msgstr "OpenCV (opencv-python) - v4.7.0.72"
 
-#: ../../source/addons.rst:424
+#: ../../source/addons.rst:423
 msgid "Numpy (numpy) - v1.24.2"
 msgstr "Numpy (numpy) - v1.24.2"
 
-#: ../../source/addons.rst:426
+#: ../../source/addons.rst:425
 msgid "Imutils (imutils) - v0.5.4"
 msgstr "Imutils (imutils) - v0.5.4"
 
-#: ../../source/addons.rst:428
+#: ../../source/addons.rst:427
 msgid "ImageZMQ (imagezmq) – v1.1.1"
 msgstr "ImageZMQ (imagezmq) – v1.1.1"
 
-#: ../../source/addons.rst:430
+#: ../../source/addons.rst:429
 msgid "Cryptodome (pycryptodomex) - v3.17"
 msgstr "Cryptodome (pycryptodomex) - v3.17"
 
-#: ../../source/addons.rst:432
+#: ../../source/addons.rst:431
 msgid "PySerial (pyserial) - v3.5"
 msgstr "PySerial (pyserial) - v3.5"
 
-#: ../../source/addons.rst:434
+#: ../../source/addons.rst:433
 msgid "PyInstaller (pyinstaller) – v5.8.0"
 msgstr "PyInstaller (pyinstaller) – v5.8.0"
 
-#: ../../source/addons.rst:436
+#: ../../source/addons.rst:435
 msgid "Rpi.GPIO - v0.7.1"
 msgstr "Rpi.GPIO - v0.7.1"
 
-#: ../../source/addons.rst:438
+#: ../../source/addons.rst:437
 msgid "SimpleJpeg (simplejpeg) – v1.6.5"
 msgstr "SimpleJpeg (simplejpeg) – v1.6.5"
 
-#: ../../source/addons.rst:440
+#: ../../source/addons.rst:439
 msgid "PiCamera – v1.13"
 msgstr "PiCamera – v1.13"
 
-#: ../../source/addons.rst:443
+#: ../../source/addons.rst:442
 msgid "AI models used"
 msgstr "Użyte modele AI"
 
-#: ../../source/addons.rst:445
+#: ../../source/addons.rst:444
 msgid "Movenet (human motion detection):"
 msgstr "Movenet (detekcja ruchu człowieka):"
 
-#: ../../source/addons.rst:447
+#: ../../source/addons.rst:446
 msgid ""
 "SinglePose Lightning v4 - https://tfhub.dev/google/movenet/singlepose/lightning/4"
 msgstr ""
 "SinglePose Lightning v4 - https://tfhub.dev/google/movenet/singlepose/lightning/4"
 
-#: ../../source/addons.rst:449
+#: ../../source/addons.rst:448
 msgid ""
 "SinglePose Thunder v4 - https://tfhub.dev/google/movenet/singlepose/thunder/4"
 msgstr ""
 "SinglePose Thunder v4 - https://tfhub.dev/google/movenet/singlepose/thunder/4"
 
-#: ../../source/addons.rst:451
+#: ../../source/addons.rst:450
 msgid ""
 "MultiPose Lightning v1 - https://tfhub.dev/google/movenet/multipose/lightning/1"
 msgstr ""
 "MultiPose Lightning v1 - https://tfhub.dev/google/movenet/multipose/lightning/1"
 
-#: ../../source/addons.rst:453
+#: ../../source/addons.rst:452
 msgid "Mobilenet (object classification):"
 msgstr "Mobilenet (klasyfikacja obiektów):"
 
-#: ../../source/addons.rst:455
+#: ../../source/addons.rst:454
 msgid "SSD Mobilenet v2 - https://tfhub.dev/tensorflow/ssd_mobilenet_v2/2"
 msgstr "SSD Mobilenet v2 - https://tfhub.dev/tensorflow/ssd_mobilenet_v2/2"
 
-#: ../../source/addons.rst:458
+#: ../../source/addons.rst:457
 msgid "Requirements Python 3.10 (for Python sources)"
 msgstr "Wymagania Python 3.10 (dla źródeł w Pythonie)"
 
-#: ../../source/addons.rst:460
+#: ../../source/addons.rst:459
 msgid "# requirements.txt"
 msgstr "# requirements.txt"
 
-#: ../../source/addons.rst:462
+#: ../../source/addons.rst:461
 msgid "absl-py==1.4.0"
 msgstr "absl-py==1.4.0"
 
-#: ../../source/addons.rst:464
+#: ../../source/addons.rst:462
 msgid "altgraph==0.17.3"
 msgstr "altgraph==0.17.3"
 
-#: ../../source/addons.rst:466
+#: ../../source/addons.rst:463
 msgid "astunparse==1.6.3"
 msgstr "astunparse==1.6.3"
 
-#: ../../source/addons.rst:468
+#: ../../source/addons.rst:464
 msgid "cachetools==5.3.0"
 msgstr "cachetools==5.3.0"
 
-#: ../../source/addons.rst:470
+#: ../../source/addons.rst:465
 msgid "certifi==2022.12.7"
 msgstr "certifi==2022.12.7"
 
-#: ../../source/addons.rst:472
+#: ../../source/addons.rst:466
 msgid "charset-normalizer==3.1.0"
 msgstr "charset-normalizer==3.1.0"
 
-#: ../../source/addons.rst:474
+#: ../../source/addons.rst:467
 msgid "click==8.1.3"
 msgstr "click==8.1.3"
 
-#: ../../source/addons.rst:476
+#: ../../source/addons.rst:468
 msgid "Flask==2.2.3"
 msgstr "Flask==2.2.3"
 
-#: ../../source/addons.rst:478
+#: ../../source/addons.rst:469
 msgid "flatbuffers==23.3.3"
 msgstr "flatbuffers==23.3.3"
 
-#: ../../source/addons.rst:480
+#: ../../source/addons.rst:470
 msgid "gast==0.4.0"
 msgstr "gast==0.4.0"
 
-#: ../../source/addons.rst:482
+#: ../../source/addons.rst:471
 msgid "google-auth==2.16.2"
 msgstr "google-auth==2.16.2"
 
-#: ../../source/addons.rst:484
+#: ../../source/addons.rst:472
 msgid "google-auth-oauthlib==0.4.6"
 msgstr "google-auth-oauthlib==0.4.6"
 
-#: ../../source/addons.rst:486
+#: ../../source/addons.rst:473
 msgid "google-pasta==0.2.0"
 msgstr "google-pasta==0.2.0"
 
-#: ../../source/addons.rst:488
+#: ../../source/addons.rst:474
 msgid "grpcio==1.51.3"
 msgstr "grpcio==1.51.3"
 
-#: ../../source/addons.rst:490
+#: ../../source/addons.rst:475
 msgid "h5py==3.8.0"
 msgstr "h5py==3.8.0"
 
-#: ../../source/addons.rst:492
+#: ../../source/addons.rst:476
 msgid "idna==3.4"
 msgstr "idna==3.4"
 
-#: ../../source/addons.rst:494
+#: ../../source/addons.rst:477
 msgid "imagezmq==1.1.1"
 msgstr "imagezmq==1.1.1"
 
-#: ../../source/addons.rst:496
+#: ../../source/addons.rst:478
 msgid "imutils==0.5.4"
 msgstr "imutils==0.5.4"
 
-#: ../../source/addons.rst:498
+#: ../../source/addons.rst:479
 msgid "itsdangerous==2.1.2"
 msgstr "itsdangerous==2.1.2"
 
-#: ../../source/addons.rst:500
+#: ../../source/addons.rst:480
 msgid "Jinja2==3.1.2"
 msgstr "Jinja2==3.1.2"
 
-#: ../../source/addons.rst:502
+#: ../../source/addons.rst:481
 msgid "keras==2.11.0"
 msgstr "keras==2.11.0"
 
-#: ../../source/addons.rst:504
+#: ../../source/addons.rst:482
 msgid "libclang==15.0.6.1"
 msgstr "libclang==15.0.6.1"
 
-#: ../../source/addons.rst:506
+#: ../../source/addons.rst:483
 msgid "Markdown==3.4.1"
 msgstr "Markdown==3.4.1"
 
-#: ../../source/addons.rst:508
+#: ../../source/addons.rst:484
 msgid "MarkupSafe==2.1.2"
 msgstr "MarkupSafe==2.1.2"
 
-#: ../../source/addons.rst:510
+#: ../../source/addons.rst:485
 msgid "numpy==1.24.2"
 msgstr "numpy==1.24.2"
 
-#: ../../source/addons.rst:512
+#: ../../source/addons.rst:486
 msgid "oauthlib==3.2.2"
 msgstr "oauthlib==3.2.2"
 
-#: ../../source/addons.rst:514
+#: ../../source/addons.rst:487
 msgid "opencv-python==4.7.0.72"
 msgstr "opencv-python==4.7.0.72"
 
-#: ../../source/addons.rst:516
+#: ../../source/addons.rst:488
 msgid "opt-einsum==3.3.0"
 msgstr "opt-einsum==3.3.0"
 
-#: ../../source/addons.rst:518
+#: ../../source/addons.rst:489
 msgid "packaging==23.0"
 msgstr "packaging==23.0"
 
-#: ../../source/addons.rst:520
-msgid "picamera==1.13"
-msgstr "picamera==1.13"
-
-#: ../../source/addons.rst:522
+#: ../../source/addons.rst:490
 msgid "protobuf==3.19.6"
 msgstr "protobuf==3.19.6"
 
-#: ../../source/addons.rst:524
+#: ../../source/addons.rst:491
 msgid "pyasn1==0.4.8"
 msgstr "pyasn1==0.4.8"
 
-#: ../../source/addons.rst:526
+#: ../../source/addons.rst:492
 msgid "pyasn1-modules==0.2.8"
 msgstr "pyasn1-modules==0.2.8"
 
-#: ../../source/addons.rst:528
+#: ../../source/addons.rst:493
 msgid "pycryptodomex==3.17"
 msgstr "pycryptodomex==3.17"
 
-#: ../../source/addons.rst:530
+#: ../../source/addons.rst:494
 msgid "pyinstaller==5.8.0"
 msgstr "pyinstaller==5.8.0"
 
-#: ../../source/addons.rst:532
+#: ../../source/addons.rst:495
 msgid "pyinstaller-hooks-contrib==2023.0"
 msgstr "pyinstaller-hooks-contrib==2023.0"
 
-#: ../../source/addons.rst:534
+#: ../../source/addons.rst:496
 msgid "pyserial==3.5"
 msgstr "pyserial==3.5"
 
-#: ../../source/addons.rst:536
-msgid "PySide6==6.4.2"
-msgstr "PySide6==6.4.2"
-
-#: ../../source/addons.rst:538
-msgid "PySide6-Addons==6.4.2"
-msgstr "PySide6-Addons==6.4.2"
-
-#: ../../source/addons.rst:540
+#: ../../source/addons.rst:497
 msgid "PySide6-Essentials==6.4.2"
 msgstr "PySide6-Essentials==6.4.2"
 
-#: ../../source/addons.rst:542
+#: ../../source/addons.rst:498
 msgid "pyzmq==25.0.0"
 msgstr "pyzmq==25.0.0"
 
-#: ../../source/addons.rst:544
+#: ../../source/addons.rst:499
 msgid "requests==2.28.2"
 msgstr "requests==2.28.2"
 
-#: ../../source/addons.rst:546
+#: ../../source/addons.rst:500
 msgid "requests-oauthlib==1.3.1"
 msgstr "requests-oauthlib==1.3.1"
 
-#: ../../source/addons.rst:548
+#: ../../source/addons.rst:501
 msgid "RPi.GPIO==0.7.1"
 msgstr "RPi.GPIO==0.7.1"
 
-#: ../../source/addons.rst:550
+#: ../../source/addons.rst:502
 msgid "rsa==4.9"
 msgstr "rsa==4.9"
 
-#: ../../source/addons.rst:552
+#: ../../source/addons.rst:503
 msgid "shiboken6==6.4.2"
 msgstr "shiboken6==6.4.2"
 
-#: ../../source/addons.rst:554
+#: ../../source/addons.rst:504
 msgid "simplejpeg==1.6.5"
 msgstr "simplejpeg==1.6.5"
 
-#: ../../source/addons.rst:556
+#: ../../source/addons.rst:505
 msgid "six==1.16.0"
 msgstr "six==1.16.0"
 
-#: ../../source/addons.rst:558
+#: ../../source/addons.rst:506
 msgid "tensorboard==2.11.2"
 msgstr "tensorboard==2.11.2"
 
-#: ../../source/addons.rst:560
+#: ../../source/addons.rst:507
 msgid "tensorboard-data-server==0.6.1"
 msgstr "tensorboard-data-server==0.6.1"
 
-#: ../../source/addons.rst:562
+#: ../../source/addons.rst:508
 msgid "tensorboard-plugin-wit==1.8.1"
 msgstr "tensorboard-plugin-wit==1.8.1"
 
-#: ../../source/addons.rst:564
+#: ../../source/addons.rst:509
 msgid "tensorflow==2.11.0"
 msgstr "tensorflow==2.11.0"
 
-#: ../../source/addons.rst:566
+#: ../../source/addons.rst:510
 msgid "tensorflow-estimator==2.11.0"
 msgstr "tensorflow-estimator==2.11.0"
 
-#: ../../source/addons.rst:568
+#: ../../source/addons.rst:511
 msgid "tensorflow-hub==0.12.0"
 msgstr "tensorflow-hub==0.12.0"
 
-#: ../../source/addons.rst:570
+#: ../../source/addons.rst:512
 msgid "tensorflow-io-gcs-filesystem==0.31.0"
 msgstr "tensorflow-io-gcs-filesystem==0.31.0"
 
-#: ../../source/addons.rst:572
+#: ../../source/addons.rst:513
 msgid "termcolor==2.2.0"
 msgstr "termcolor==2.2.0"
 
-#: ../../source/addons.rst:574
+#: ../../source/addons.rst:514
 msgid "typing_extensions==4.5.0"
 msgstr "typing_extensions==4.5.0"
 
-#: ../../source/addons.rst:576
+#: ../../source/addons.rst:515
 msgid "urllib3==1.26.14"
 msgstr "urllib3==1.26.14"
 
-#: ../../source/addons.rst:578
+#: ../../source/addons.rst:516
 msgid "Werkzeug==2.2.3"
 msgstr "Werkzeug==2.2.3"
 
-#: ../../source/addons.rst:580
+#: ../../source/addons.rst:517
 msgid "wrapt==1.15.0"
 msgstr "wrapt==1.15.0"
 
-#: ../../source/addons.rst:583
+#: ../../source/addons.rst:520
 msgid "Configuration of GPIO pins - Raspberry"
 msgstr "Konfiguracja pinów GPIO – Raspberry"
 
-#: ../../source/addons.rst:585
+#: ../../source/addons.rst:522
 msgid "Pin addressing mode: **GPIO.BOARD**"
 msgstr "Tryb adresowania pinów: **GPIO.BOARD**"
 
-#: ../../source/addons.rst:587
+#: ../../source/addons.rst:524
 msgid "**PIN 32** – SERVO X (PWM, CHANNEL 0)"
 msgstr "**PIN 32** – SERVO X (PWM, CHANNEL 0)"
 
-#: ../../source/addons.rst:588
+#: ../../source/addons.rst:525
 msgid "**PIN 33** – SERVO Y (PWM, CHANNEL 1)"
 msgstr "**PIN 33** – SERVO Y (PWM, CHANNEL 1)"
 
-#: ../../source/addons.rst:589
+#: ../../source/addons.rst:526
 msgid "**PIN 16** – ACTION A1 (DIGITAL, OUTPUT)"
 msgstr "**PIN 16** – ACTION A1 (DIGITAL, OUTPUT)"
 
-#: ../../source/addons.rst:590
+#: ../../source/addons.rst:527
 msgid "**PIN 18** – ACTION A2 (DIGITAL, OUTPUT)"
 msgstr "**PIN 18** – ACTION A2 (DIGITAL, OUTPUT)"
 
-#: ../../source/addons.rst:591
+#: ../../source/addons.rst:528
 msgid "**PIN 22** – ACTION A3 (DIGITAL, OUTPUT)"
 msgstr "**PIN 22** – ACTION A3 (DIGITAL, OUTPUT)"
 
-#: ../../source/addons.rst:592
+#: ../../source/addons.rst:529
 msgid "**PIN 24** - ACTION B4 (DIGITAL, OUTPUT)"
 msgstr "**PIN 24** - ACTION B4 (DIGITAL, OUTPUT)"
 
-#: ../../source/addons.rst:593
+#: ../../source/addons.rst:530
 msgid "**PIN 26** - ACTION B5 (DIGITAL, OUTPUT)"
 msgstr "**PIN 26** - ACTION B5 (DIGITAL, OUTPUT)"
 
-#: ../../source/addons.rst:594
+#: ../../source/addons.rst:531
 msgid "**PIN 36** - ACTION B6 (DIGITAL, OUTPUT)"
 msgstr "**PIN 36** - ACTION B6 (DIGITAL, OUTPUT)"
 
-#: ../../source/addons.rst:596
+#: ../../source/addons.rst:533
 msgid ""
 "The configuration is in the **config.ini** file in the root directory of client "
 "application:"
@@ -1260,54 +1243,54 @@ msgstr ""
 "Konfiguracja znajduje się w pliku **config.ini** w katalogu głównym\n"
 "aplikacji klienckiej:"
 
-#: ../../source/addons.rst:611
+#: ../../source/addons.rst:548
 msgid "Configuration of GPIO pins - Arduino"
 msgstr "Konfiguracja pinów GPIO – Arduino"
 
-#: ../../source/addons.rst:613
+#: ../../source/addons.rst:550
 msgid "**PIN 10** – SERVO X (PWM)"
 msgstr "**PIN 10** – SERVO X (PWM)"
 
-#: ../../source/addons.rst:614
+#: ../../source/addons.rst:551
 msgid "**PIN 11** – Y SERVO (PWM)"
 msgstr "**PIN 11** – SERVO Y (PWM)"
 
-#: ../../source/addons.rst:615
+#: ../../source/addons.rst:552
 msgid "**PIN 2** - ACTION A1 (DIGITAL, OUTPUT)"
 msgstr "**PIN 2** - ACTION A1 (DIGITAL, OUTPUT)"
 
-#: ../../source/addons.rst:616
+#: ../../source/addons.rst:553
 msgid "**PIN 4** – ACTION A2 (DIGITAL, OUTPUT)"
 msgstr "**PIN 4** – ACTION A2 (DIGITAL, OUTPUT)"
 
-#: ../../source/addons.rst:617
+#: ../../source/addons.rst:554
 msgid "**PIN 7** – ACTION A3 (DIGITAL, OUTPUT)"
 msgstr "**PIN 7** – ACTION A3 (DIGITAL, OUTPUT)"
 
-#: ../../source/addons.rst:618
+#: ../../source/addons.rst:555
 msgid "**PIN 8** - ACTION B4 (DIGITAL, OUTPUT)"
 msgstr "**PIN 8** - ACTION B4 (DIGITAL, OUTPUT)"
 
-#: ../../source/addons.rst:619
+#: ../../source/addons.rst:556
 msgid "**PIN 12** - ACTION B5 (DIGITAL, OUTPUT)"
 msgstr "**PIN 12** - ACTION B5 (DIGITAL, OUTPUT)"
 
-#: ../../source/addons.rst:620
+#: ../../source/addons.rst:557
 msgid "**PIN 13** - ACTION B6 (DIGITAL, OUTPUT)"
 msgstr "**PIN 13** - ACTION B6 (DIGITAL, OUTPUT)"
 
-#: ../../source/addons.rst:622
+#: ../../source/addons.rst:559
 msgid ""
 "The configuration is in a single code file for the application Arduino client:"
 msgstr ""
 "Konfiguracja znajduje się w pojedyńczym pliku z kodem dla aplikacji\n"
 "klienckiej Arduino:"
 
-#: ../../source/addons.rst:639
+#: ../../source/addons.rst:576
 msgid "Format of commands sent to the serial port"
 msgstr "Format wysyłanych komend na port szeregowy"
 
-#: ../../source/addons.rst:641
+#: ../../source/addons.rst:578
 msgid ""
 "In the case of a serial connection, the syntax sent to the command port looks "
 "like this:"
@@ -1315,23 +1298,23 @@ msgstr ""
 "W przypadku połączenia szeregowego składnia wysyłanej na port komendy\n"
 "wygląda następująco:"
 
-#: ../../source/addons.rst:644
+#: ../../source/addons.rst:581
 msgid "``X,Y,C,1,2,3,4,5,6``"
 msgstr "``X,Y,C,1,2,3,4,5,6``"
 
-#: ../../source/addons.rst:646
+#: ../../source/addons.rst:583
 msgid "where in turn:"
 msgstr "gdzie po kolei:"
 
-#: ../../source/addons.rst:648
+#: ../../source/addons.rst:585
 msgid "**X** – X servo movement value (angle)"
 msgstr "**X** – wartość wychylenia serwa X (w stopniach)"
 
-#: ../../source/addons.rst:650
+#: ../../source/addons.rst:587
 msgid "**Y** – Y servo movement value (angle)"
 msgstr "**Y** – wartość wychylenia serwa Y (w stopniach)"
 
-#: ../../source/addons.rst:652
+#: ../../source/addons.rst:589
 msgid ""
 "**C** - the number of detected objects by AI (if the mode auto/AI, with manual "
 "it always equals 0)"
@@ -1339,67 +1322,67 @@ msgstr ""
 "**C** – ilość wykrytych obiektów na ekranie (jeśli tryb\n"
 "   automatyczny/AI, przy manualnym = 0)"
 
-#: ../../source/addons.rst:655
+#: ../../source/addons.rst:592
 msgid "**1** - state of A1 (0 or 1)"
 msgstr "**1** – stan akcji A1 (0 lub 1)"
 
-#: ../../source/addons.rst:657
+#: ../../source/addons.rst:594
 msgid "**2** - state of A2 (0 or 1)"
 msgstr "**2** – stan akcji A2 (0 lub 1)"
 
-#: ../../source/addons.rst:659
+#: ../../source/addons.rst:596
 msgid "**3** - state of A3 (0 or 1)"
 msgstr "**3** – stan akcji A3 (0 lub 1)"
 
-#: ../../source/addons.rst:661
+#: ../../source/addons.rst:598
 msgid "**4** – state of B4 (0 or 1)"
 msgstr "**4** – stan akcji B4 (0 lub 1)"
 
-#: ../../source/addons.rst:663
+#: ../../source/addons.rst:600
 msgid "**5** - state of B5 (0 or 1)"
 msgstr "**5** – stan akcji B5 (0 lub 1)"
 
-#: ../../source/addons.rst:665
+#: ../../source/addons.rst:602
 msgid "**6** - state of B6 (0 or 1)"
 msgstr "**6** – stan akcji B6 (0 lub 1)"
 
-#: ../../source/addons.rst:667
+#: ../../source/addons.rst:604
 msgid "An example command sent to the serial port:"
 msgstr "Przykładowa komenda wysyłana na port szeregowy:"
 
-#: ../../source/addons.rst:669
+#: ../../source/addons.rst:606
 msgid "``30,120,1,0,1,0,0,0,0``"
 msgstr "``30,120,1,0,1,0,0,0,0``"
 
-#: ../../source/addons.rst:671
+#: ../../source/addons.rst:608
 msgid "meaning in turn:"
 msgstr "oznaczająca po kolei:"
 
-#: ../../source/addons.rst:673
+#: ../../source/addons.rst:610
 msgid "servo movement X = 30 degrees"
 msgstr "wychylenie serwa X = 30 stopni"
 
-#: ../../source/addons.rst:674
+#: ../../source/addons.rst:611
 msgid "servo movement Y = 120 degrees"
 msgstr "wychylenie serwa Y = 120 stopni"
 
-#: ../../source/addons.rst:675
+#: ../../source/addons.rst:612
 msgid "1 detected object"
 msgstr "1 wykryty obiekt"
 
-#: ../../source/addons.rst:676
+#: ../../source/addons.rst:613
 msgid "active action A2 (state = 1)"
 msgstr "aktywna akcja A2 (stan = 1)"
 
-#: ../../source/addons.rst:677
+#: ../../source/addons.rst:614
 msgid "rest of actions (A1, A3, B4, B5, B6) are disabled (state = 0)."
 msgstr "pozostałe akcje (A1, A3, B4, B5, B6) są wyłączone (stan = 0)."
 
-#: ../../source/addons.rst:679
+#: ../../source/addons.rst:616
 msgid "The end of command character is a newline character: **\\\\n**"
 msgstr "Znak końca komendy to znak nowej linii: **\\\\n**"
 
-#: ../../source/addons.rst:681
+#: ../../source/addons.rst:618
 msgid ""
 "Command ``0`` (zero) sent to the serial port (Arduino) sends request for status "
 "response of the device/sensors."
@@ -1407,7 +1390,7 @@ msgstr ""
 "Komenda ``0`` (zero) wysłana na port szeregowy\n"
 "(Arduino) powoduje odpytanie o status urządzenia/sensorów."
 
-#: ../../source/addons.rst:684
+#: ../../source/addons.rst:621
 msgid ""
 "**The above can be used to program your own controller using a serial / UART / "
 "USB port to connect.**"
@@ -1415,23 +1398,23 @@ msgstr ""
 "**Powyższe można wykorzystać do oprogramowania własnego sterownika\n"
 "używającego do połączenia portu szeregowego / UART / USB.**"
 
-#: ../../source/addons.rst:688
+#: ../../source/addons.rst:625
 msgid "Summary"
 msgstr "Podsumowanie"
 
-#: ../../source/addons.rst:690
+#: ../../source/addons.rst:627
 msgid "2023 servocam.org"
 msgstr "2023 servocam.org"
 
-#: ../../source/addons.rst:692
+#: ../../source/addons.rst:629
 msgid "https://servocam.org"
 msgstr "https://servocam.org"
 
-#: ../../source/addons.rst:694
+#: ../../source/addons.rst:631
 msgid "https://github.com/servo-cam"
 msgstr "https://github.com/servo-cam"
 
-#: ../../source/addons.rst:696
+#: ../../source/addons.rst:633
 msgid "info@servocam.org"
 msgstr "info@servocam.org"
 
@@ -1449,3 +1432,19 @@ msgstr "info@servocam.org"
 
 #~ msgid "Version: 0.9.2 \\| 2023.03.22"
 #~ msgstr "Wersja: 0.9.2 beta \\| 2023-03-22"
+
+#~ msgid ""
+#~ "**app.remote_host** - default remote host, string (https://assets.afcdn.com/"
+#~ "video49/20210722/v_645516.m3u8)"
+#~ msgstr ""
+#~ "**app.remote_host** - domyślny zdalny host, string (https://assets.afcdn.com/"
+#~ "video49/20210722/v_645516.m3u8)"
+
+#~ msgid "picamera==1.13"
+#~ msgstr "picamera==1.13"
+
+#~ msgid "PySide6==6.4.2"
+#~ msgstr "PySide6==6.4.2"
+
+#~ msgid "PySide6-Addons==6.4.2"
+#~ msgstr "PySide6-Addons==6.4.2"

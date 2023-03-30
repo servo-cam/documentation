@@ -46,7 +46,7 @@ Configuration - list of parameters
 
 **Linux:** ``/home/user/.config/servocam_org/config.ini``
 
-**Windows:** ``C:\\Users\\user\\.config\\servocam_org\\config.ini``
+**Windows:** ``C:\Users\user\.config\servocam_org\config.ini``
 
 
 
@@ -72,15 +72,14 @@ Configuration - list of parameters
 
 # app.model = opencv_movement_detect_multi
 
-**app.source** - default mode, string [local|video|stream|remote]
-(video)
+**app.source** - default mode, string [cam|video|stream|remote]
+(cam)
 
-**app.video_url** - default video file, string (./mp4/whatislove.mp4)
+**app.video_url** - default video file, string
 
 **app.stream_url** - default URL with stream, string
 
 **app.remote_host** - default remote host, string
-(https://assets.afcdn.com/video49/20210722/v_645516.m3u8)
 
 **app.remote_ip** - default remote IP, string
 
@@ -413,7 +412,7 @@ Libraries used
 
 - Python (python3) - v3.10
 
-- PySide6 (PySide6) - v6.4.2
+- PySide6 (PySide6-Essentials) - v6.4.2
 
 - Tensorflow (tensorflow) - v2.11.0
 
@@ -459,125 +458,63 @@ Requirements Python 3.10 (for Python sources)
 
 # requirements.txt
 
-absl-py==1.4.0
-
-altgraph==0.17.3
-
-astunparse==1.6.3
-
-cachetools==5.3.0
-
-certifi==2022.12.7
-
-charset-normalizer==3.1.0
-
-click==8.1.3
-
-Flask==2.2.3
-
-flatbuffers==23.3.3
-
-gast==0.4.0
-
-google-auth==2.16.2
-
-google-auth-oauthlib==0.4.6
-
-google-pasta==0.2.0
-
-grpcio==1.51.3
-
-h5py==3.8.0
-
-idna==3.4
-
-imagezmq==1.1.1
-
-imutils==0.5.4
-
-itsdangerous==2.1.2
-
-Jinja2==3.1.2
-
-keras==2.11.0
-
-libclang==15.0.6.1
-
-Markdown==3.4.1
-
-MarkupSafe==2.1.2
-
-numpy==1.24.2
-
-oauthlib==3.2.2
-
-opencv-python==4.7.0.72
-
-opt-einsum==3.3.0
-
-packaging==23.0
-
-picamera==1.13
-
-protobuf==3.19.6
-
-pyasn1==0.4.8
-
-pyasn1-modules==0.2.8
-
-pycryptodomex==3.17
-
-pyinstaller==5.8.0
-
-pyinstaller-hooks-contrib==2023.0
-
-pyserial==3.5
-
-PySide6==6.4.2
-
-PySide6-Addons==6.4.2
-
-PySide6-Essentials==6.4.2
-
-pyzmq==25.0.0
-
-requests==2.28.2
-
-requests-oauthlib==1.3.1
-
-RPi.GPIO==0.7.1
-
-rsa==4.9
-
-shiboken6==6.4.2
-
-simplejpeg==1.6.5
-
-six==1.16.0
-
-tensorboard==2.11.2
-
-tensorboard-data-server==0.6.1
-
-tensorboard-plugin-wit==1.8.1
-
-tensorflow==2.11.0
-
-tensorflow-estimator==2.11.0
-
-tensorflow-hub==0.12.0
-
-tensorflow-io-gcs-filesystem==0.31.0
-
-termcolor==2.2.0
-
-typing_extensions==4.5.0
-
-urllib3==1.26.14
-
-Werkzeug==2.2.3
-
-wrapt==1.15.0
+| absl-py==1.4.0
+| altgraph==0.17.3
+| astunparse==1.6.3
+| cachetools==5.3.0
+| certifi==2022.12.7
+| charset-normalizer==3.1.0
+| click==8.1.3
+| Flask==2.2.3
+| flatbuffers==23.3.3
+| gast==0.4.0
+| google-auth==2.16.2
+| google-auth-oauthlib==0.4.6
+| google-pasta==0.2.0
+| grpcio==1.51.3
+| h5py==3.8.0
+| idna==3.4
+| imagezmq==1.1.1
+| imutils==0.5.4
+| itsdangerous==2.1.2
+| Jinja2==3.1.2
+| keras==2.11.0
+| libclang==15.0.6.1
+| Markdown==3.4.1
+| MarkupSafe==2.1.2
+| numpy==1.24.2
+| oauthlib==3.2.2
+| opencv-python==4.7.0.72
+| opt-einsum==3.3.0
+| packaging==23.0
+| protobuf==3.19.6
+| pyasn1==0.4.8
+| pyasn1-modules==0.2.8
+| pycryptodomex==3.17
+| pyinstaller==5.8.0
+| pyinstaller-hooks-contrib==2023.0
+| pyserial==3.5
+| PySide6-Essentials==6.4.2
+| pyzmq==25.0.0
+| requests==2.28.2
+| requests-oauthlib==1.3.1
+| RPi.GPIO==0.7.1
+| rsa==4.9
+| shiboken6==6.4.2
+| simplejpeg==1.6.5
+| six==1.16.0
+| tensorboard==2.11.2
+| tensorboard-data-server==0.6.1
+| tensorboard-plugin-wit==1.8.1
+| tensorflow==2.11.0
+| tensorflow-estimator==2.11.0
+| tensorflow-hub==0.12.0
+| tensorflow-io-gcs-filesystem==0.31.0
+| termcolor==2.2.0
+| typing_extensions==4.5.0
+| urllib3==1.26.14
+| Werkzeug==2.2.3
+| wrapt==1.15.0
 
 Configuration of GPIO pins - Raspberry
 --------------------------------------
