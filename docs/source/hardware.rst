@@ -19,15 +19,15 @@ correct mapping of the screen coords to the movements of the servos. Camera with
 incorrect FOV (i.e. not matching true angle of view) can generate too slow 
 or too fast and not good servo movement.
 
-Viewing angles (FOV) must be defined in the **config.ini** file:
+Viewing angles (FOV) must be defined in the **config.ini** file and via **Servo > Configure servo...*** menu:
 
 .. code-block:: ini
 
 	# config.ini
 
 	camera.idx = 0
-	camera.fov.x=54#<-------
-	camera.fov.y=41# <-------
+	camera.fov.x=54 #<-------
+	camera.fov.y=41 # <-------
 	camera.width = 1280
 	camera.height = 720
 	camera.fps = 30
@@ -127,10 +127,56 @@ disconnect from the servomotors. This behaviour does not apply to the video sour
 - when playing a movie, you can disable locking the center of the screen
 at the center point.
 
-**Note: the servo requires precise configuration of the operating
+**Note:** the servo requires precise configuration of the operating
 parameters and proper setting of the pulses, as well as the maximum tilt
 angles that the servo can perform - all these parameters must be defined
 in the configuration files. A detailed description of the parameters can
-be found in the further part of the manual.**
+be found in the further part of the manual.
+
+From release 0.9.3 you can configure all those base options via **Servo > Configure servo...** settings:
+
+.. image:: images/app/servo_config.png
+   :width: 800
+
+**Note:** if you use Arduino then you must also specify correct pulse width in **Arduino** code (available in **Client** directory):
+
+.. code-block:: c++
+
+	#define SERVO_X_PULSE_MIN 771 // servo X min pulse
+	#define SERVO_X_PULSE_MAX 2193 // servo X max pulse
+	#define SERVO_Y_PULSE_MIN 771 // servo Y min pulse
+	#define SERVO_Y_PULSE_MAX 2193 // servo Y max pulse
+
+If you are using Raspberry GPIO to controll servo then specify these options in **config.ini** in client's directory:
+
+
+.. code-block:: ini
+
+	# config.ini
+
+	# SERVO PARAMS
+	servo.use_limit = 0
+	servo.angle.start.x = 90
+	servo.angle.start.y = 90
+	servo.angle.min.x = 0
+	servo.angle.min.y = 0
+	servo.angle.max.x = 180
+	servo.angle.max.y = 180
+	servo.limit.min.x = 0
+	servo.limit.min.y = 0
+	servo.limit.max.x = 180
+	servo.limit.max.y = 180
+	servo.freq.x = 50
+	servo.freq.y = 50
+	servo.delay.x = 0.02
+	servo.delay.y = 0.02
+	servo.cycle.start.x = 0
+	servo.cycle.start.y = 0
+	servo.cycle.min.x = 2.5
+	servo.cycle.min.y = 2.5
+	servo.cycle.max.x = 12.5
+	servo.cycle.max.y = 12.5
+	servo.angle.multiplier.x = 1
+	servo.angle.multiplier.y = 1
 
 **INCORRECT SERVO CONFIGURATION MAY DAMAGE THEM!**

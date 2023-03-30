@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SERVO CAM\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-28 20:05+0200\n"
-"PO-Revision-Date: 2023-03-28 20:07+0200\n"
+"POT-Creation-Date: 2023-03-30 21:26+0200\n"
+"PO-Revision-Date: 2023-03-30 21:30+0200\n"
 "Last-Translator: \n"
 "Language-Team: pl <LL@li.org>\n"
 "Language: pl\n"
@@ -37,8 +37,8 @@ msgid "**GitHub:** https://github.com/servo-cam"
 msgstr "**GitHub:** https://github.com/servo-cam"
 
 #: ../../source/index.rst:11
-msgid "**Version:** 0.9.2 (2023.03.27)"
-msgstr "**Wersja:** 0.9.2 (2023.03.27)"
+msgid "**Version:** 0.9.3 (2023.03.30)"
+msgstr "**Wersja:** 0.9.3 (2023.03.30)"
 
 #: ../../source/index.rst:18
 msgid "Contents"
