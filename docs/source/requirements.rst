@@ -34,60 +34,62 @@ Below is a list of components required to prepare an example construction with l
 Local connection (PC + Arduino)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Arduino Nano:** https://botland.store/arduino-nano-boards/12960-arduino-nano-module-a000005-7630049200173.html
-
-**Arducam OV2710 2Mpx 1/2.7' USB camera:** https://botland.store/arduino-rpi-cameras/16896-arducam-ov2710-camera-2mpx-1-27-usb-automatic-ir-cut-filter-1080p-arducam-b0205-5904422345136.html
-
-**Camera mount:** https://botland.store/rpi-zero-mounting-elements/20898-pro-mini-camera-mount-holder-for-the-official-camera-and-raspberry-pi-zero-pihut-tph-069-5904422382735.html
-
-**IR-CUT camera mount:** https://botland.store/raspberry-pi-camera-accessories/10324-ir-cut-camera-case-open-black-5904422315542.html10324-obudowa-do-kamery-ir-cut-otwarta-czarna-5904422315542.html
-
-**2x standard-size servo Tower Pro MG995 + Pan/Tilt Kit:** https://botland.store/grapplers-and-gimbals/2546-pantilt-servo-bracket-kit-servos-dagu-6952581600800.html
-
-**Aluminum servo mount Feetech FK-MB-001:** https://botland.store/grapplers-and-gimbals/9208-aluminium-servo-mount-feetech-fk-mb-001-black-5904422312992.html
-
-**Aluminum servo clamp Feetech FK-RP-001 - 20mm / 6mm:** https://botland.store/servo-horns-hooks/9198-round-aluminum-servo-horn-feetech-fk-rp-001-20mm-6mm-5904422337698.html
-
-**Hub USB 2.0 4-ports Esperanza EA-112:** https://botland.store/usb-hubs/1199-usb-20-hub-4-ports-esperanza-ea-112-5905784768564.html
-
-**5V power supply module with DC socket:** https://botland.store/power-modules/9420-power-module-33v-5v-with-dc-jack-5904422313302.html
-
-**Switching power supply 9V/2A:** https://botland.store/socket-power-supply/7158-power-supply-9v-2a-dc-55-21mm-5902135147375.html
-
-**2x 60cm servo extension cable:** https://botland.store/servo-wires/648-extension-cord-for-servos-60cm-5904422329549.html
-
-**5m active USB extension cable:** https://botland.store/usb-adapters/3860-active-usb-extension-cable-5m-5904100201327.html
+| **Arduino Nano:**
+| https://botland.store/arduino-nano-boards/12960-arduino-nano-module-a000005-7630049200173.html
+| **Arducam OV2710 2Mpx 1/2.7' USB camera:**
+| https://botland.store/arduino-rpi-cameras/16896-arducam-ov2710-camera-2mpx-1-27-usb-automatic-ir-cut-filter-1080p-arducam-b0205-5904422345136.html
+| **Camera mount:**
+| https://botland.store/rpi-zero-mounting-elements/20898-pro-mini-camera-mount-holder-for-the-official-camera-and-raspberry-pi-zero-pihut-tph-069-5904422382735.html
+| **IR-CUT camera mount:**
+| https://botland.store/raspberry-pi-camera-accessories/10324-ir-cut-camera-case-open-black-5904422315542.html10324-obudowa-do-kamery-ir-cut-otwarta-czarna-5904422315542.html
+| **2x standard-size servo Tower Pro MG995 + Pan/Tilt Kit:**
+| https://botland.store/grapplers-and-gimbals/2546-pantilt-servo-bracket-kit-servos-dagu-6952581600800.html
+| **Aluminum servo mount Feetech FK-MB-001:**
+| https://botland.store/grapplers-and-gimbals/9208-aluminium-servo-mount-feetech-fk-mb-001-black-5904422312992.html
+| **Aluminum servo horn Feetech FK-RP-001 - 20mm / 6mm:**
+| https://botland.store/servo-horns-hooks/9198-round-aluminum-servo-horn-feetech-fk-rp-001-20mm-6mm-5904422337698.html
+| **Hub USB 2.0 4-ports Esperanza EA-112:**
+| https://botland.store/usb-hubs/1199-usb-20-hub-4-ports-esperanza-ea-112-5905784768564.html
+| **5V power supply module with DC socket:**
+| https://botland.store/power-modules/9420-power-module-33v-5v-with-dc-jack-5904422313302.html
+| **Switching power supply 9V/2A:**
+| https://botland.store/socket-power-supply/7158-power-supply-9v-2a-dc-55-21mm-5902135147375.html
+| **2x 60cm servo extension cable:**
+| https://botland.store/servo-wires/648-extension-cord-for-servos-60cm-5904422329549.html
+| **5m active USB extension cable:**
+| https://botland.store/usb-adapters/3860-active-usb-extension-cable-5m-5904100201327.html
 
 Remote connection (PC + Raspberry / Arduino / WiFi)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Raspberry Pi 3 A+ with microUSB power supply:** https://botland.store/raspberry-pi-3a/13834-set-of-raspberry-pi-3a-wifi-original-case-power-supply-5v-25a-5903351241526.html
-
-**Arduino Nano:** https://botland.store/arduino-nano-boards/12960-arduino-nano-module-a000005-7630049200173.html
-
-**Goodram memory card M1AA microSD 16GB 100MB/s UHS-I klasa 10 with adapter:** https://botland.store/microsd-sd-cards/2123-memory-card-m1aa-goodram-microsd-16gb-100mb-s-5908267930137.html
-
-**Card reader CY BOX USB 3.0 - CF, SD, microSD:** https://www.amazon.co.uk/ICY-BOX-Reader-microSD-Memory/dp/B07B4R53WG
-
-**Camera HD Night Vision E OV5647 5Mpx - for Raspberry Pi + IR modules - Waveshare 10300 CSI:** https://botland.store/raspberry-pi-cameras/4522-camera-hd-night-vision-e-ov5647-5mpx-for-5904422332860.html
-
-**Raspberry Pi camera CSI tape 60cm, 15 wires, raster 1mm:** https://botland.store/raspberry-pi-camera-accessories/2440-raspberry-pi-camera-ribbon-wire-60cm-15-wires-5904422359157.html
-
-**Camera mount:** https://botland.store/rpi-zero-mounting-elements/20898-pro-mini-camera-mount-holder-for-the-official-camera-and-raspberry-pi-zero-pihut-tph-069-5904422382735.html
-
-**2x standard-size servo Tower Pro MG995 + Pan/Tilt Kit:** https://botland.store/grapplers-and-gimbals/2546-pantilt-servo-bracket-kit-servos-dagu-6952581600800.html
-
-**Aluminum servo mount Feetech FK-MB-001:** https://botland.store/grapplers-and-gimbals/9208-aluminium-servo-mount-feetech-fk-mb-001-black-5904422312992.html
-
-**Aluminum servo clamp Feetech FK-RP-001 - 20mm / 6mm:** https://botland.store/servo-horns-hooks/9198-round-aluminum-servo-horn-feetech-fk-rp-001-20mm-6mm-5904422337698.html
-
-**5V power supply module with DC socket:** https://botland.store/power-modules/9420-power-module-33v-5v-with-dc-jack-5904422313302.html
-
-**Switching power supply 9V/2A:** https://botland.store/socket-power-supply/7158-power-supply-9v-2a-dc-55-21mm-5902135147375.html
-
-**2x 60cm servo extension cable:** https://botland.store/servo-wires/648-extension-cord-for-servos-60cm-5904422329549.html
-
-**Raspberry Pi 3 A+ case transparent open:** https://botland.store/raspberry-pi-cases/13535-case-for-raspberry-pi-3-a-transparent-open-5904422320843.html
+| **Raspberry Pi 3 A+ with microUSB power supply:**
+| https://botland.store/raspberry-pi-3a/13834-set-of-raspberry-pi-3a-wifi-original-case-power-supply-5v-25a-5903351241526.html
+| **Arduino Nano:**
+| https://botland.store/arduino-nano-boards/12960-arduino-nano-module-a000005-7630049200173.html
+| **Goodram memory card M1AA microSD 16GB 100MB/s UHS-I klasa 10 with adapter:**
+| https://botland.store/microsd-sd-cards/2123-memory-card-m1aa-goodram-microsd-16gb-100mb-s-5908267930137.html
+| **Card reader CY BOX USB 3.0 - CF, SD, microSD:**
+| https://www.amazon.co.uk/ICY-BOX-Reader-microSD-Memory/dp/B07B4R53WG
+| **Camera HD Night Vision E OV5647 5Mpx - for Raspberry Pi + IR modules - Waveshare 10300 CSI:**
+| https://botland.store/raspberry-pi-cameras/4522-camera-hd-night-vision-e-ov5647-5mpx-for-5904422332860.html
+| **Raspberry Pi camera CSI tape 60cm, 15 wires, raster 1mm:**
+| https://botland.store/raspberry-pi-camera-accessories/2440-raspberry-pi-camera-ribbon-wire-60cm-15-wires-5904422359157.html
+| **Camera mount:**
+| https://botland.store/rpi-zero-mounting-elements/20898-pro-mini-camera-mount-holder-for-the-official-camera-and-raspberry-pi-zero-pihut-tph-069-5904422382735.html
+| **2x standard-size servo Tower Pro MG995 + Pan/Tilt Kit:**
+| https://botland.store/grapplers-and-gimbals/2546-pantilt-servo-bracket-kit-servos-dagu-6952581600800.html
+| **Aluminum servo mount Feetech FK-MB-001:**
+| https://botland.store/grapplers-and-gimbals/9208-aluminium-servo-mount-feetech-fk-mb-001-black-5904422312992.html
+| **Aluminum servo horn Feetech FK-RP-001 - 20mm / 6mm:**
+| https://botland.store/servo-horns-hooks/9198-round-aluminum-servo-horn-feetech-fk-rp-001-20mm-6mm-5904422337698.html
+| **5V power supply module with DC socket:**
+| https://botland.store/power-modules/9420-power-module-33v-5v-with-dc-jack-5904422313302.html
+| **Switching power supply 9V/2A:**
+| https://botland.store/socket-power-supply/7158-power-supply-9v-2a-dc-55-21mm-5902135147375.html
+| **2x 60cm servo extension cable:**
+| https://botland.store/servo-wires/648-extension-cord-for-servos-60cm-5904422329549.html
+| **Raspberry Pi 3 A+ case transparent open:**
+| https://botland.store/raspberry-pi-cases/13535-case-for-raspberry-pi-3-a-transparent-open-5904422320843.html
 
 Possible connection configurations
 ----------------------------------

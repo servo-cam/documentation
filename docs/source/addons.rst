@@ -201,7 +201,7 @@ client compression is enabled, bool [1|0] (0)
 (IDLE)
 
 **target.point** - default aiming point [AUTO|HEAD|NECK|BODY|LEGS]
-(CAR)
+(AUTO)
 
 **target.locked** - on/off locating on object, bool [1|0] (0)
 
