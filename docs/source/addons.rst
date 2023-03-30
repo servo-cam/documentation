@@ -44,9 +44,9 @@ Configuration - list of parameters
 
 **config.ini** file:
 
-**Linux:** ``/home/user/.config/tracker2/config.ini``
+**Linux:** ``/home/user/.config/servocam_org/config.ini``
 
-**Windows:** ``C:\\Users\\user\\.config\\tracker2\\config.ini``
+**Windows:** ``C:\\Users\\user\\.config\\servocam_org\\config.ini``
 
 
 

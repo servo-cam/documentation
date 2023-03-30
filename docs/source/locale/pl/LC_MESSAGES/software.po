@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: SERVO CAM\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-28 18:02+0200\n"
-"PO-Revision-Date: 2023-03-28 18:03+0200\n"
+"PO-Revision-Date: 2023-03-30 23:29+0200\n"
 "Last-Translator: \n"
 "Language-Team: pl <LL@li.org>\n"
 "Language: pl\n"
@@ -166,11 +166,11 @@ msgid ""
 msgstr ""
 "Jako tryb pracy należy wybrać w aplikacji **KAM (USB)**, aby uzyskać obraz z "
 "kamery podłączonej bezpośrednio do portu USB oraz w menu **Serwo** należy wybrać "
-"z listy opcję **Lokalne / (port szeregowy)**, gdzie **(port szeregowy)** to "
-"nazwa pod jaką dostępne jest np. Arduino z podłączonymi serwomechanizmami. Nazwa "
-"portu może się różnić zależnie od systemu operacyjnego i podłączonych już "
-"urządzeń, np. na Windowsach może to być **COM5**, a na Linuxach ``/dev/ttyACM0`` "
-"lub ``/dev/ttyUSB0``."
+"z listy opcję **Lokalne >(port szeregowy)**, gdzie **(port szeregowy)** to nazwa "
+"pod jaką dostępne jest np. Arduino z podłączonymi serwomechanizmami. Nazwa portu "
+"może się różnić zależnie od systemu operacyjnego i podłączonych już urządzeń, "
+"np. na Windowsach może to być **COM5**, a na Linuxach ``/dev/ttyACM0`` lub ``/"
+"dev/ttyUSB0``."
 
 #: ../../source/software.rst:74
 msgid ""
@@ -291,7 +291,7 @@ msgstr ""
 "Można dzięki temu przygotować sobie listę własnych urządzeń, która będzie "
 "ładowana automatycznie i znacznie przyspieszy zarządzanie klientami. Plik z "
 "hostami edytować można również bezpośrednio z poziomu aplikacji serwerowej: "
-"**Menu / Konfiguracja / Edytuj hosts.txt**."
+"**Menu > Konfiguracja > Edytuj hosts.txt**."
 
 #: ../../source/software.rst:145
 msgid "Remote mode - STREAM (webserver, HTTP / MJPEG)"
@@ -384,7 +384,7 @@ msgstr ""
 "Można dzięki temu przygotować sobie listę własnych urządzeń, która będzie "
 "ładowana automatycznie i znacznie przyspieszy zarządzanie hostami. Plik z "
 "hostami edytować można również bezpośrednio z poziomu aplikacji serwerowej: "
-"**Menu / Konfiguracja / Edytuj streams.txt**."
+"**Menu > Konfiguracja > Edytuj streams.txt**."
 
 #: ../../source/software.rst:200
 msgid ""
@@ -419,16 +419,16 @@ msgid ""
 "**CAM (USB)** - control of a camera connected locally to the USB port, and "
 "servos locally connected via the USB port, e.g. using Arduino"
 msgstr ""
-"**KAM (USB)** - sterowanie lokalnie podłączoną kamerą do portu USB,    oraz "
-"serwomechanizmami lokalnie podłączonymi przez port USB np. za    pomocą Arduino"
+"**KAM (USB)** - sterowanie lokalnie podłączoną kamerą do portu USB, oraz "
+"serwomechanizmami lokalnie podłączonymi przez port USB np. za pomocą Arduino"
 
 #: ../../source/software.rst:222
 msgid ""
 "**CAM (IP)** - remote control via sockets of the camera and servomotors "
 "connected via the network, e.g. to Raspberry Pi or to another remote computer"
 msgstr ""
-"**KAM (IP)** - zdalne sterowanie za pomocą socketów kamerą i    serwomotorami "
-"podłączonymi przez sieć np. do Raspberry Pi lub do    innego zdalnego komputera"
+"**KAM (IP)** - zdalne sterowanie za pomocą socketów kamerą i serwomotorami "
+"podłączonymi przez sieć np. do Raspberry Pi lub do innego zdalnego komputera"
 
 #: ../../source/software.rst:225
 msgid ""
@@ -605,7 +605,7 @@ msgid ""
 "testing purposes, to test the behavior on video material."
 msgstr ""
 "W trybie tym załadować można zdalny stream z adresu URL, np. z IPTV, podając "
-"adres do pliku m3u8.  Umożliwia to podłączenie obrazu z zewnętrznego streamu."
+"adres do pliku m3u8. Umożliwia to podłączenie obrazu z zewnętrznego streamu."
 
 #: ../../source/software.rst:311
 msgid "**STREAM**"
@@ -669,15 +669,15 @@ msgid ""
 "**Manual** - allows you to remotely control the mechanism using buttons and "
 "mouse, zoom, and manually turn on/off the action"
 msgstr ""
-"**Ręczne / Manual** - pozwala na zdalne sterowanie mechanizmem za    pomocą "
-"przycisków i myszki, zoom, oraz manualne włączanie/wyłaczanie    akcji"
+"**Ręczne / Manual** - pozwala na zdalne sterowanie mechanizmem za pomocą "
+"przycisków i myszki, zoom, oraz manualne włączanie/wyłączanie akcji"
 
 #: ../../source/software.rst:341
 msgid ""
 "**Auto (AI)** - allows you to automatically control the mechanism using built-in "
 "artificial intelligence (AI) models"
 msgstr ""
-"**Auto (AI)** - pozwala na automatyczne sterowanie mechanizmem za    pomocą "
+"**Auto (AI)** - pozwala na automatyczne sterowanie mechanizmem za pomocą "
 "wbudowanych modeli sztucznej inteligencji (AI)"
 
 #: ../../source/software.rst:343
@@ -685,7 +685,7 @@ msgid ""
 "**Area** - allows you to limit the working modes for AI by setting the allowed "
 "area on the screen"
 msgstr ""
-"**Obszar / Area** - pozwala na ograniczenie trybów pracy dla AI za    pomocą "
+"**Obszar / Area** - pozwala na ograniczenie trybów pracy dla AI za pomocą "
 "wyznaczenia dozwolonego obszaru na ekranie"
 
 #: ../../source/software.rst:345
@@ -693,8 +693,8 @@ msgid ""
 "**Filters** - allows you to filter object types, e.g. specifying classes for "
 "detected objects or their minimum scoring"
 msgstr ""
-"**Filtry / Filters** - pozwala na filtrowanie typów obiektów, np.    określenie "
-"klas dla wykrywanych obiektów, czy ich minimalnego    scoringu"
+"**Filtry / Filters** - pozwala na filtrowanie typów obiektów, np. określenie "
+"klas dla wykrywanych obiektów, czy ich minimalnego scoringu"
 
 #: ../../source/software.rst:347
 msgid "**Video** - allows you to control the video image"
@@ -706,9 +706,9 @@ msgid ""
 "mode and servo operation (these and all other parameters are configurable in the "
 "**config.ini** file)"
 msgstr ""
-"**Opcje** – pozwala na konfigurację na żywo podstawowych parametrów    trybu "
-"śledzenia i pracy serwa (te i wszystkie pozostałe parametry są    konfigurowalne "
-"w pliku **config.ini**)"
+"**Opcje** – pozwala na konfigurację na żywo podstawowych parametrów trybu "
+"śledzenia i pracy serwa (te i wszystkie pozostałe parametry są konfigurowalne w "
+"pliku **config.ini**)"
 
 #: ../../source/software.rst:353
 msgid "Manual mode"
@@ -733,7 +733,7 @@ msgstr ""
 "gdzie **G = ruch do góry**, **D = ruch do dołu**, **L = ruch w lewo**, **P = "
 "ruch w prawo**, **C = wyśrodkowanie**. Do zmiany szybkości przesuwania się "
 "mechanizmu w trybie manualnym służy suwak **Szybkość**. Suwakiem **Zoom** można "
-"przbliżać, lub oddalać obraz z kamery (cyfrowy zoom)."
+"przybliżać, lub oddalać obraz z kamery (cyfrowy zoom)."
 
 #: ../../source/software.rst:365
 msgid ""
@@ -802,17 +802,17 @@ msgid ""
 "**SINGLE** - causes one-time execution of the action (e.g. one-time activation "
 "of the **+5V/HIGH** state on the pin)"
 msgstr ""
-"**POJEDYŃCZY / SINGLE** - powoduje jednorazowe wykonanie akcji (np.    "
-"jednorazowe załączenie na chwilę stanu **+5V/HIGH** na pin-ie)"
+"**POJEDYŃCZY / SINGLE** - powoduje jednorazowe wykonanie akcji (np. jednorazowe "
+"załączenie na chwilę stanu **+5V/HIGH** na pin-ie)"
 
 #: ../../source/software.rst:407
 msgid ""
 "**SERIES** - performs actions in series (time intervals), the length of the "
 "intervals can be defined in the tab used for automatic control"
 msgstr ""
-"**SERIA / SERIES** - powoduje wykonywanie akcji w seriach (odstępach    "
-"czasowych), długość odstępów można zdefiniować w zakładce służacej do    "
-"sterowania automatycznego"
+"**SERIA / SERIES** - powoduje wykonywanie akcji w seriach (odstępach czasowych), "
+"długość odstępów można zdefiniować w zakładce służacej do sterowania "
+"automatycznego"
 
 #: ../../source/software.rst:410
 msgid ""
@@ -820,8 +820,8 @@ msgid ""
 "LMB on the button with the action, we keep it in the active mode all the time, "
 "until the button is released"
 msgstr ""
-"**CIĄGŁY / CONTINUOUS** - powoduje załączenie akcji w trybie ciągłym,    gdzie "
-"przytrzymując LPM na przycisku z akcją utrzymujemy ją cały czas    w trybie "
+"**CIĄGŁY / CONTINUOUS** - powoduje załączenie akcji w trybie ciągłym, gdzie "
+"przytrzymując LPM na przycisku z akcją utrzymujemy ją cały czas w trybie "
 "włączonym, aż do zwolnienia przycisku"
 
 #: ../../source/software.rst:413
@@ -831,10 +831,10 @@ msgid ""
 "turn it on and keep it in continuous mode from now on, and the next click will "
 "turn it off"
 msgstr ""
-"**PRZEŁĄCZ / TOGGLE** - działa podobnie jak przełącznik (trigger)    **ON/OFF**, "
-"którym daną akcję można włączyć lub wyłączyć, tzn.    pierwsze kliknięcie na "
-"akcję spowoduje jej włączenie i utrzymywanie    jej od tej pory w trybie "
-"ciągłym, a kolejne kliknięcie spowoduje jej    wyłączenie"
+"**PRZEŁĄCZ / TOGGLE** - działa podobnie jak przełącznik (trigger) **ON/OFF**, "
+"którym daną akcję można włączyć lub wyłączyć, tzn. pierwsze kliknięcie na akcję "
+"spowoduje jej włączenie i utrzymywanie jej od tej pory w trybie ciągłym, a "
+"kolejne kliknięcie spowoduje jej wyłączenie"
 
 #: ../../source/software.rst:419
 msgid ""
@@ -843,8 +843,8 @@ msgid ""
 "\"LOCKED\" mode, the buttons that trigger actions are inactive.**"
 msgstr ""
 "Akcje można również załączać za pomocą klawiatury, używając **klawiszy "
-"numerycznych 1-6**, odpowiadających kolejnym numerom akcji.  **W trybie "
-"„Blokada” przyciski wyzwalające akcje są nieaktywne.**"
+"numerycznych 1-6**, odpowiadających kolejnym numerom akcji. **W trybie „Blokada” "
+"przyciski wyzwalające akcje są nieaktywne.**"
 
 #: ../../source/software.rst:427
 msgid "Auto Mode (Artificial Intelligence - AI)"
@@ -875,7 +875,7 @@ msgid ""
 "**Mobilenet SSD** - a model for detecting and classifying objects (e.g. person, "
 "car, tank, cat, dog, etc.)"
 msgstr ""
-"**Mobilenet SSD** - model służący do wykrywania i klasyfikacji    obiektów (np. "
+"**Mobilenet SSD** - model służący do wykrywania i klasyfikacji obiektów (np. "
 "człowiek, samochód, czołg, kot, pies, etc.)"
 
 #: ../../source/software.rst:438
@@ -891,15 +891,15 @@ msgid ""
 "**SINGLE POSE / ONE (lightning version)** - allows you to track only one person "
 "at a time"
 msgstr ""
-"**SINGLE POSE / JEDEN (wersja lightning)** - pozwala na śledzenie    tylko "
-"jednego człowieka naraz"
+"**SINGLE POSE / JEDEN (wersja lightning)** - pozwala na śledzenie tylko jednego "
+"człowieka naraz"
 
 #: ../../source/software.rst:444
 msgid ""
 "**SINGLE POSE / ONE (thunder version)** - as above, but works with greater "
 "accuracy at the expense of more computing power required"
 msgstr ""
-"**SINGLE POSE / JEDEN (wersja thunder)** - j/w, ale działa z większą    "
+"**SINGLE POSE / JEDEN (wersja thunder)** - j/w, ale działa z większą "
 "dokładnością kosztem wymaganej większej mocy obliczeniowej"
 
 #: ../../source/software.rst:446
@@ -907,7 +907,7 @@ msgid ""
 "**MULTI POSE / MANY (lightning version)** - allows you to track many people at "
 "once"
 msgstr ""
-"**MULTI POSE / WIELE (wersja lightning)** - pozwala na śledzenie    wielu ludzi "
+"**MULTI POSE / WIELE (wersja lightning)** - pozwala na śledzenie wielu ludzi "
 "naraz"
 
 #: ../../source/software.rst:449
@@ -939,7 +939,7 @@ msgid ""
 "**IDLE** - tracking on the screen is enabled, however, no actions such as servo "
 "movement are performed"
 msgstr ""
-"**PAUZA / IDLE** - włączone śledzenie na ekranie, jednakże nie są    wykonywane "
+"**PAUZA / IDLE** - włączone śledzenie na ekranie, jednakże nie są wykonywane "
 "żadne akcje typu ruch serwomechanizmów"
 
 #: ../../source/software.rst:464
@@ -947,8 +947,8 @@ msgid ""
 "**FOLLOW** - enables tracking of the object, and the mechanism starts to follow "
 "the object and commands are sent to the servos"
 msgstr ""
-"**PODĄŻAJ / FOLLOW**- włącza śledzenie obiektu, a mechanizm zaczyna    podążać "
-"za obiektem i wysyłane są komendy do serwomechanizmów"
+"**PODĄŻAJ / FOLLOW**- włącza śledzenie obiektu, a mechanizm zaczyna podążać za "
+"obiektem i wysyłane są komendy do serwomechanizmów"
 
 #: ../../source/software.rst:467
 msgid ""
@@ -958,11 +958,11 @@ msgid ""
 "range of movement of the mechanism in the X axis, in to find an object within "
 "the full field of view"
 msgstr ""
-"**PATROL** - tryb patrolowy, w przypadku wykrycia obiektu działa jak    tryb "
-"**PODĄŻAJ/FOLLOW**, natomiast w przypadku braku celu mechanizm    przełącza się "
-"automatycznie w tryb patrolowy, w którym ruch serwa    wykonuje się od jednego "
-"kierunku do drugiego w pełnym zakresie ruchu    mechanizmu w osi X, w celu "
-"odnalezienia obiektu znajdującego się w    pełnym polu widzenia"
+"**PATROL** - tryb patrolowy, w przypadku wykrycia obiektu działa jak tryb "
+"**PODĄŻAJ/FOLLOW**, natomiast w przypadku braku celu mechanizm przełącza się "
+"automatycznie w tryb patrolowy, w którym ruch serwa wykonuje się od jednego "
+"kierunku do drugiego w pełnym zakresie ruchu mechanizmu w osi X, w celu "
+"odnalezienia obiektu znajdującego się w pełnym polu widzenia"
 
 #: ../../source/software.rst:474
 msgid "**Tracking modes**"
@@ -971,7 +971,7 @@ msgstr "**Tryby śledzenia/trackingu**"
 #: ../../source/software.rst:476
 msgid "**LOCK** - causes automatic locking of the system on the detected object"
 msgstr ""
-"**ZALOKUJ** **/ LOCK**- powoduje automatyczne \"zalokowanie się\"    systemu na "
+"**ZALOKUJ** **/ LOCK**- powoduje automatyczne \"zalokowanie się\" systemu na "
 "wykrytym obiekcie"
 
 #: ../../source/software.rst:478
@@ -980,8 +980,8 @@ msgid ""
 "to keep attention only on one object and not automatically switch to other "
 "objects, e.g. after performing an action"
 msgstr ""
-"**JEDEN CEL / SINGLE** - do użycia z opcją **ZALOKUJ** , po włączeniu    system "
-"stara sie utrzymać uwagę tylko na jednym obiekcie oraz nie    przełączać się "
+"**JEDEN CEL / SINGLE** - do użycia z opcją **ZALOKUJ** , po włączeniu system "
+"stara się utrzymać uwagę tylko na jednym obiekcie oraz nie przełączać się "
 "automatycznie na inne obiekty np. po wykonaniu akcji"
 
 #: ../../source/software.rst:483
@@ -993,7 +993,7 @@ msgid ""
 "**«** - locates the system on the previous object in the X axis (if the selected "
 "AI model allows you to track many objects at once)"
 msgstr ""
-"**«** - lokuje system na poprzednim obiekcie w osi X (jeśli wybrany    model AI "
+"**«** - lokuje system na poprzednim obiekcie w osi X (jeśli wybrany model AI "
 "pozwala na śledzenie wielu obiektów naraz)"
 
 #: ../../source/software.rst:487
@@ -1001,7 +1001,7 @@ msgid ""
 "**»** - locates the system on the next object in the X axis (if the selected AI "
 "model allows you to track many objects at once)"
 msgstr ""
-"**»** - lokuje system na następnym obiekcie w osi X (jeśli wybrany    model AI "
+"**»** - lokuje system na następnym obiekcie w osi X (jeśli wybrany model AI "
 "pozwala na śledzenie wielu obiektów naraz)"
 
 #: ../../source/software.rst:490
@@ -1026,7 +1026,7 @@ msgid ""
 "for continuous actions, zero value **(0)** causes no disablement."
 msgstr ""
 "**Suwak \"czas trwania akcji\"** - pozwala na zmniejszenie lub zwiększenie czasu "
-"trwania dla akcji typu ciagłego, wartość zerowa **(0)** powoduje brak wyłączenia."
+"trwania dla akcji typu ciągłego, wartość zerowa **(0)** powoduje brak wyłączenia."
 
 #: ../../source/software.rst:501
 msgid ""
@@ -1073,8 +1073,8 @@ msgid ""
 "**AUTO** - causes the system to be located at the most optimal point on the "
 "person's body"
 msgstr ""
-"**AUTO** - powoduje lokowanie się systemu na najbardziej optymalnym    punkcie "
-"na ciele człowieka"
+"**AUTO** - powoduje lokowanie się systemu na najbardziej optymalnym punkcie na "
+"ciele człowieka"
 
 #: ../../source/software.rst:521
 msgid "**HEAD** - causes the system to be placed on the head"
@@ -1087,16 +1087,15 @@ msgstr "**SZYJA / NECK** - powoduje lokowanie się systemu na karku"
 #: ../../source/software.rst:523
 msgid "**BOD** - causes the system to be located on the body / center of gravity"
 msgstr ""
-"**CIAŁO / BODY**- powoduje lokowanie się systemu na korpusie / środku    "
-"ciężkości"
+"**CIAŁO / BODY**- powoduje lokowanie się systemu na korpusie / środku ciężkości"
 
 #: ../../source/software.rst:525
 msgid ""
 "**LEGS** - causes the system to locate itself on the legs if they are available "
 "in the field of view"
 msgstr ""
-"**NOGI** **/ LEGS** - powoduje lokowanie się systemu na nogach jeśli    są "
-"dostępne w polu widzenia"
+"**NOGI** **/ LEGS** - powoduje lokowanie się systemu na nogach jeśli są dostępne "
+"w polu widzenia"
 
 #: ../../source/software.rst:529
 msgid "Remote Status"
@@ -1163,7 +1162,7 @@ msgstr "**ON/OFF** - włącza lub wyłącza używanie danego obszaru"
 #: ../../source/software.rst:563
 msgid "**Select** – enables drawing a new area with the mouse"
 msgstr ""
-"**Wybierz / Select** – kliknięcie włącza rysowanie nowego obszaru za    pomocą "
+"**Wybierz / Select** – kliknięcie włącza rysowanie nowego obszaru za pomocą "
 "myszki"
 
 #: ../../source/software.rst:564
@@ -1177,10 +1176,10 @@ msgid ""
 "screen, i.e. the area will \"virtually\" follow the movement of the mechanism by "
 "sticking to a point in real space)"
 msgstr ""
-"**Real** - włącza lub wyłącza mapowanie obszaru do realnego świata    (jeśli "
-"jest włączone to obszar będzie przypisany do koordynat w    prawdziwej "
-"przestrzeni, a nie do ekranu, tj. obszar będzie    „wirtualnie” podążać za "
-"ruchem mechanizmu trzymając się punktu w    rzeczywistej przestrzeni)"
+"**Real** - włącza lub wyłącza mapowanie obszaru do realnego świata (jeśli jest "
+"włączone to obszar będzie przypisany do koordynat w prawdziwej przestrzeni, a "
+"nie do ekranu, tj. obszar będzie „wirtualnie” podążać za ruchem mechanizmu "
+"trzymając się punktu w rzeczywistej przestrzeni)"
 
 #: ../../source/software.rst:573
 msgid "You can also enter coordinates manually using the fields at the bottom."
@@ -1224,20 +1223,19 @@ msgstr "Ograniczenia można podać dla kilku różnych typów zdarzeń:"
 #: ../../source/software.rst:593
 msgid "**Detect** - the condition will be applied at the stage of object detection"
 msgstr ""
-"**Wykrywanie / Detect** – warunek będzie aplikowany na etapie    wykrywania "
-"obiektów"
+"**Wykrywanie / Detect** – warunek będzie aplikowany na etapie wykrywania obiektów"
 
 #: ../../source/software.rst:594
 msgid ""
 "**Tracking** - the condition will be applied at the stage of starting tracking"
 msgstr ""
-"**Śledzenie / Tracking** - warunek będzie aplikowany na etapie    rozpoczynania "
+"**Śledzenie / Tracking** - warunek będzie aplikowany na etapie rozpoczynania "
 "śledzenia"
 
 #: ../../source/software.rst:595
 msgid "**Action** - the condition will be applied when activating the action"
 msgstr ""
-"**Akcja / Action** - warunek będzie aplikowany podczas włączania    wykonywania "
+"**Akcja / Action** - warunek będzie aplikowany podczas włączania wykonywania "
 "akcji"
 
 #: ../../source/software.rst:600
@@ -1430,7 +1428,7 @@ msgid ""
 "An example of the effect after enabling **Nightvision** filter, which digitally "
 "enhances the video:"
 msgstr ""
-"Przykładowy efekt po włączeniu filtru **Noktowizja / Nightvision**,   "
+"Przykładowy efekt po włączeniu filtru **Noktowizja / Nightvision**,"
 "wzmacniającego cyfrowo obraz:"
 
 #: ../../source/software.rst:683
@@ -1449,9 +1447,9 @@ msgid ""
 "you can change the startup parameters of the application."
 msgstr ""
 "Podczas uruchomienia aplikacji cała konfiguracja ładowana jest z pliku **config."
-"ini** znajdującego się w katalogu z aplikacją. Plik jest kopiowany do katalogu "
-"użytkownika w systemie i stamtąd dalej odczytywany. Modyfikując ten plik można "
-"zmienić parametry startowe aplikacji."
+"ini** znajdującego się w katalogu z aplikacją. Plik jest następnie kopiowany do "
+"katalogu użytkownika w systemie i stamtąd dalej odczytywany. Modyfikując ten "
+"plik można zmienić parametry startowe aplikacji."
 
 #: ../../source/software.rst:694
 msgid ""
@@ -1787,7 +1785,7 @@ msgid ""
 "**start** – a script that starts the client in **remote mode** (to operate with "
 "desktop application), in silent mode"
 msgstr ""
-"**start** – skrypt uruchamiający klienta dla **trybu remote**    (aplikacji "
+"**start** – skrypt uruchamiający klienta dla **trybu remote** (aplikacji "
 "desktopowej) w opcji cichej"
 
 #: ../../source/software.rst:901
@@ -1795,7 +1793,7 @@ msgid ""
 "**start-web** – a script that starts the client in **web mode** (mode that "
 "allows you to connect via webbrowser), in silent mode"
 msgstr ""
-"**start-web** – skrypt uruchamiający klienta dla **trybu webowego**    (do "
+"**start-web** – skrypt uruchamiający klienta dla **trybu webowego** (do "
 "podłączenia przez przeglądarkę), w opcji cichej"
 
 #: ../../source/software.rst:904
@@ -1875,7 +1873,7 @@ msgstr "*# config.ini*"
 
 #: ../../source/software.rst:966
 msgid "**security.web.token** - security token for web applications, string"
-msgstr "**security.web.token** - token zabezpieczajacy dla webaplikacji, string"
+msgstr "**security.web.token** - token zabezpieczający dla webaplikacji, string"
 
 #: ../../source/software.rst:967
 msgid ""
@@ -2528,7 +2526,7 @@ msgid ""
 "port **6667** - this is a temporary socket used to initiate the connection - "
 "*TCP / STREAM*"
 msgstr ""
-"**port 6667** - jest to tymczasowy socket używany do inicjacji połączenia    – "
+"**port 6667** - jest to tymczasowy socket używany do inicjacji połączenia – "
 "*TCP / STREAM*"
 
 #: ../../source/software.rst:1158
@@ -2541,9 +2539,9 @@ msgid ""
 "the browser in the case of a running web client, or working in STREAM mode - "
 "*HTTP mode*"
 msgstr ""
-"port **8888** - stream obrazu wideo w formacie MJPEG dla WWW i    odbieranie "
-"komend z przeglądarki w przypadku uruchomionego klienta    webowego, lub pracy w "
-"trybie STREAM - *HTTP*"
+"port **8888** - stream obrazu wideo w formacie MJPEG dla WWW i odbieranie komend "
+"z przeglądarki w przypadku uruchomionego klienta    webowego, lub pracy w trybie "
+"STREAM - *HTTP*"
 
 #: ../../source/software.rst:1164
 msgid "The following ports are opened (binded) on the server side:"

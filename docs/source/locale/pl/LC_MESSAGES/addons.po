@@ -7,17 +7,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SERVO CAM\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-28 20:10+0200\n"
-"PO-Revision-Date: 2023-03-28 15:57+0200\n"
+"POT-Creation-Date: 2023-03-30 23:16+0200\n"
+"PO-Revision-Date: 2023-03-30 23:17+0200\n"
 "Last-Translator: \n"
-"Language: pl\n"
 "Language-Team: pl <LL@li.org>\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && "
-"(n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || "
+"n%100>=20) ? 1 : 2);\n"
 "Generated-By: Babel 2.12.1\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #: ../../source/addons.rst:2
 msgid "Additional informations"
@@ -33,11 +34,9 @@ msgstr "Do kompilacji używany jest PyInstaller."
 
 #: ../../source/addons.rst:9
 msgid ""
-"In the project directory there are configuration files for Windows and "
-"Linux:"
+"In the project directory there are configuration files for Windows and Linux:"
 msgstr ""
-"W katalogu z projektem znajdują się pliki z konfiguracją dla Windowsa i "
-"Linuxa:"
+"W katalogu z projektem znajdują się pliki z konfiguracją dla Windowsa i Linuxa:"
 
 #: ../../source/addons.rst:11
 msgid "windows.spec"
@@ -57,15 +56,13 @@ msgstr "**Kompilacja dla Windows (wersja GPU):**"
 
 #: ../../source/addons.rst:31
 msgid ""
-"The Windows GPU version requires the ``zlibwapi.dll`` library, it is "
-"located in the ``lib`` directory. MVC libraries are also included with "
-"the windows build. CUDA libraries are required on the system (recommended"
-" installation with conda)."
+"The Windows GPU version requires the ``zlibwapi.dll`` library, it is located in "
+"the ``lib`` directory. MVC libraries are also included with the windows build. "
+"CUDA libraries are required on the system (recommended installation with conda)."
 msgstr ""
-"Wersja GPU dla Windows wymaga biblioteki ``zlibwapi.dll``, znajduje się "
-"ona w katalogu ``lib``. Do builda windowsowego dołączane są też "
-"biblioteki MVC. W systemie wymagane są biblioteki CUDA (zalecana "
-"instalacja za pomocą conda)."
+"Wersja GPU dla Windows wymaga biblioteki ``zlibwapi.dll``, znajduje się ona w "
+"katalogu ``lib``. Do builda windowsowego dołączane są też biblioteki MVC. W "
+"systemie wymagane są biblioteki CUDA (zalecana instalacja za pomocą conda)."
 
 #: ../../source/addons.rst:34
 msgid "**Build for Linux:**"
@@ -80,12 +77,14 @@ msgid "**config.ini** file:"
 msgstr "Plik **config.ini**:"
 
 #: ../../source/addons.rst:47
-msgid "**Linux:** ``/home/user/.config/tracker2/config.ini``"
-msgstr "**Linux:** ``/home/user/.config/tracker2/config.ini``"
+msgid "**Linux:** ``/home/user/.config/servocam_org/config.ini``"
+msgstr "**Linux:** ``/home/user/.config/servocam_org/config.ini``"
 
 #: ../../source/addons.rst:49
-msgid "**Windows:** ``C:\\\\Users\\\\user\\\\.config\\\\tracker2\\\\config.ini``"
-msgstr "**Windows:** ``C:\\Users\\user\\.config\\tracker2\\config.ini``"
+msgid ""
+"**Windows:** ``C:\\\\Users\\\\user\\\\.config\\\\servocam_org\\\\config.ini``"
+msgstr ""
+"**Windows:** ``C:\\\\Users\\\\user\\\\.config\\\\servocam_org\\\\config.ini``"
 
 #: ../../source/addons.rst:53
 msgid "**Syntax:** key - description, type [possible values] (default value)"
@@ -134,8 +133,7 @@ msgstr "# app.model = opencv_movement_detect_multi"
 #: ../../source/addons.rst:75
 msgid "**app.source** - default mode, string [local|video|stream|remote] (video)"
 msgstr ""
-"**app.source** - domyślny tryb pracy, string [local|video|stream|remote] "
-"(video)"
+"**app.source** - domyślny tryb pracy, string [local|video|stream|remote] (video)"
 
 #: ../../source/addons.rst:78
 msgid "**app.video_url** - default video file, string (./mp4/whatislove.mp4)"
@@ -147,11 +145,11 @@ msgstr "**app.stream_url** - domyślny adres URL ze streamem, string"
 
 #: ../../source/addons.rst:82
 msgid ""
-"**app.remote_host** - default remote host, string "
-"(https://assets.afcdn.com/video49/20210722/v_645516.m3u8)"
+"**app.remote_host** - default remote host, string (https://assets.afcdn.com/"
+"video49/20210722/v_645516.m3u8)"
 msgstr ""
-"**app.remote_host** - domyślny zdalny host, string "
-"(https://assets.afcdn.com/video49/20210722/v_645516.m3u8)"
+"**app.remote_host** - domyślny zdalny host, string (https://assets.afcdn.com/"
+"video49/20210722/v_645516.m3u8)"
 
 #: ../../source/addons.rst:85
 msgid "**app.remote_ip** - default remote IP, string"
@@ -178,24 +176,24 @@ msgid ""
 "**security.aes.video** - on/off video image encryption using AES during "
 "connection, bool [1|0] (1)"
 msgstr ""
-"**security.aes.video** - wł/wył. szyfrowanie obrazu video za pomocą AES "
-"podczas połączenia, bool [1|0] (1)"
+"**security.aes.video** - wł/wył. szyfrowanie obrazu video za pomocą AES podczas "
+"połączenia, bool [1|0] (1)"
 
 #: ../../source/addons.rst:98
 msgid ""
-"**security.aes.data** - on/off data encryption using AES while "
-"connections, bool [1|0] (1)"
+"**security.aes.data** - on/off data encryption using AES while connections, bool "
+"[1|0] (1)"
 msgstr ""
 "**security.aes.data** - wł/wył. szyfrowanie danych za pomocą AES podczas "
 "połączenia, bool [1|0] (1)"
 
 #: ../../source/addons.rst:101
 msgid ""
-"**security.aes.key** - 16 character-length secret encryption key, must be"
-" the same on the client and on the server, string"
+"**security.aes.key** - 16 character-length secret encryption key, must be the "
+"same on the client and on the server, string"
 msgstr ""
-"**security.aes.key** - 16 znakowy tajny klucz szyfrujący, musi być taki "
-"sam na kliencie i na serwerze, string"
+"**security.aes.key** - 16 znakowy tajny klucz szyfrujący, musi być taki sam na "
+"kliencie i na serwerze, string"
 
 #: ../../source/addons.rst:104
 msgid "**camera.idx** - default camera index, integer (0)"
@@ -219,11 +217,9 @@ msgstr "**camera.height** - wysokość przechwytywanego obrazu w px, integer (72
 
 #: ../../source/addons.rst:115
 msgid ""
-"**camera.fps** - number of frames of the captured video per second, "
-"integer (30)"
+"**camera.fps** - number of frames of the captured video per second, integer (30)"
 msgstr ""
-"**camera.fps** - ilość klatek przechwytywanego obrazu na sekundę, integer"
-" (30)"
+"**camera.fps** - ilość klatek przechwytywanego obrazu na sekundę, integer (30)"
 
 #: ../../source/addons.rst:118
 msgid "**servo.enabled** - on/off. servo, bool [1|0] (1)"
@@ -247,126 +243,124 @@ msgstr "**servo.remote** - domyślny adres IP zdalnego klienta, string"
 
 #: ../../source/addons.rst:128
 msgid ""
-"**servo.map_fov** - on/off mapping the FOV of the camera to the movement "
-"of the mechanism, bool [1|0] (1)"
+"**servo.map_fov** - on/off mapping the FOV of the camera to the movement of the "
+"mechanism, bool [1|0] (1)"
 msgstr ""
-"**servo.map_fov** - wł/wył. mapowanie FOV kamery na ruch mechanizmu, bool"
-" [1|0] (1)"
+"**servo.map_fov** - wł/wył. mapowanie FOV kamery na ruch mechanizmu, bool [1|0] "
+"(1)"
 
 #: ../../source/addons.rst:131
 msgid ""
-"**servo.use_limit** = on/off mapping by limit instead of max angle, bool "
-"[1|0] (0)"
+"**servo.use_limit** = on/off mapping by limit instead of max angle, bool [1|0] "
+"(0)"
 msgstr ""
-"**servo.use_limit** = wł/wył. mapowanie wg limitu, zamiast max angle, "
-"bool [1|0] (0)"
+"**servo.use_limit** = wł/wył. mapowanie wg limitu, zamiast max angle, bool [1|0] "
+"(0)"
 
 #: ../../source/addons.rst:134
 msgid ""
-"**servo.angle.start.x** - initial deflection of the servo in the X axis, "
-"integer (90)"
+"**servo.angle.start.x** - initial deflection of the servo in the X axis, integer "
+"(90)"
 msgstr ""
-"**servo.angle.start.x** - inicjalne wychylenie serwomechanizmu w osi X, "
-"integer (90)"
+"**servo.angle.start.x** - inicjalne wychylenie serwomechanizmu w osi X, integer "
+"(90)"
 
 #: ../../source/addons.rst:137
 msgid ""
-"**servo.angle.start.y** - initial deflection of the servo in the Y axis, "
-"integer (90)"
+"**servo.angle.start.y** - initial deflection of the servo in the Y axis, integer "
+"(90)"
 msgstr ""
-"**servo.angle.start.y** - inicjalne wychylenie serwomechanizmu w osi Y, "
-"integer (90)"
+"**servo.angle.start.y** - inicjalne wychylenie serwomechanizmu w osi Y, integer "
+"(90)"
 
 #: ../../source/addons.rst:140
 msgid ""
-"**servo.angle.min.x** - min. deflection of the servo in the X axis, "
-"integer (0) # servo parameter"
+"**servo.angle.min.x** - min. deflection of the servo in the X axis, integer (0) "
+"# servo parameter"
 msgstr ""
-"**servo.angle.min.x** - min. wychylenie serwomechanizmu w osi X, integer "
-"(0) # parametr serwa"
+"**servo.angle.min.x** - min. wychylenie serwomechanizmu w osi X, integer (0) # "
+"parametr serwa"
 
 #: ../../source/addons.rst:143
 msgid ""
-"**servo.angle.min.y** - min. deflection of the servo in the Y axis, "
-"integer (0) # servo parameter"
+"**servo.angle.min.y** - min. deflection of the servo in the Y axis, integer (0) "
+"# servo parameter"
 msgstr ""
-"**servo.angle.min.y** - min. wychylenie serwomechanizmu w osi Y, integer "
-"(0) # parametr serwa"
+"**servo.angle.min.y** - min. wychylenie serwomechanizmu w osi Y, integer (0) # "
+"parametr serwa"
 
 #: ../../source/addons.rst:146
 msgid ""
-"**servo.angle.max.x** - max. deflection of the servo in the X axis, "
-"integer (180) # servo parameter"
+"**servo.angle.max.x** - max. deflection of the servo in the X axis, integer "
+"(180) # servo parameter"
 msgstr ""
-"**servo.angle.max.x** - max. wychylenie serwomechanizmu w osi X, integer "
-"(180) # parametr serwa"
+"**servo.angle.max.x** - max. wychylenie serwomechanizmu w osi X, integer (180) # "
+"parametr serwa"
 
 #: ../../source/addons.rst:149
 msgid ""
-"**servo.angle.max.y** - max. deflection of the servo in the Y axis, "
-"integer (180) # servo parameter"
+"**servo.angle.max.y** - max. deflection of the servo in the Y axis, integer "
+"(180) # servo parameter"
 msgstr ""
-"**servo.angle.max.y** - max. wychylenie serwomechanizmu w osi Y, integer "
-"(180) # parametr serwa"
+"**servo.angle.max.y** - max. wychylenie serwomechanizmu w osi Y, integer (180) # "
+"parametr serwa"
 
 #: ../../source/addons.rst:152
 msgid ""
-"**servo.limit.min.x** - min. allowed movement of the servo in the X axis,"
-" integer(0) # physical, real possibility"
+"**servo.limit.min.x** - min. allowed movement of the servo in the X axis, "
+"integer(0) # physical, real possibility"
 msgstr ""
-"**servo.limit.min.x** - min. dozwolony ruch serwomechanizmu w osi X, "
-"integer (0) # fizyczna, realna możliwość"
+"**servo.limit.min.x** - min. dozwolony ruch serwomechanizmu w osi X, integer (0) "
+"# fizyczna, realna możliwość"
 
 #: ../../source/addons.rst:155
 msgid ""
-"**servo.limit.min.y** - min. allowed movement of the servo in the Y axis,"
-" integer(0) # physical, real possibility"
+"**servo.limit.min.y** - min. allowed movement of the servo in the Y axis, "
+"integer(0) # physical, real possibility"
 msgstr ""
-"**servo.limit.min.y** - min. dozwolony ruch serwomechanizmu w osi Y, "
-"integer (0) # fizyczna, realna możliwość"
+"**servo.limit.min.y** - min. dozwolony ruch serwomechanizmu w osi Y, integer (0) "
+"# fizyczna, realna możliwość"
 
 #: ../../source/addons.rst:158
 msgid ""
-"**servo.limit.max.x** - max. allowed movement of the servo in the X axis,"
-" integer (180) # physical, real possibility"
+"**servo.limit.max.x** - max. allowed movement of the servo in the X axis, "
+"integer (180) # physical, real possibility"
 msgstr ""
-"**servo.limit.max.x** - max. dozwolony ruch serwomechanizmu w osi X, "
-"integer (180) # fizyczna, realna możliwość"
+"**servo.limit.max.x** - max. dozwolony ruch serwomechanizmu w osi X, integer "
+"(180) # fizyczna, realna możliwość"
 
 #: ../../source/addons.rst:161
 msgid ""
-"**servo.limit.max.y** - max. allowed movement of the servo in the Y axis,"
-" integer (180) # physical, real possibility"
+"**servo.limit.max.y** - max. allowed movement of the servo in the Y axis, "
+"integer (180) # physical, real possibility"
 msgstr ""
-"**servo.limit.max.y** - max. dozwolony ruch serwomechanizmu w osi Y, "
-"integer (180) # fizyczna, realna możliwość"
+"**servo.limit.max.y** - max. dozwolony ruch serwomechanizmu w osi Y, integer "
+"(180) # fizyczna, realna możliwość"
 
 #: ../../source/addons.rst:164
 msgid ""
-"**servo.angle.step.x** = min. difference in angles for sending the w "
-"command X axis, integer (1)"
+"**servo.angle.step.x** = min. difference in angles for sending the w command X "
+"axis, integer (1)"
 msgstr ""
-"**servo.angle.step.x** = min. różnica w kątach dla wysłania komendy w osi"
-" X, integer (1)"
+"**servo.angle.step.x** = min. różnica w kątach dla wysłania komendy w osi X, "
+"integer (1)"
 
 #: ../../source/addons.rst:167
 msgid ""
-"**servo.angle.step.y** = min. difference in angles for sending the w "
-"command Y axis, integer (1)"
+"**servo.angle.step.y** = min. difference in angles for sending the w command Y "
+"axis, integer (1)"
 msgstr ""
-"**servo.angle.step.y** = min. różnica w kątach dla wysłania komendy w osi"
-" Y, integer (1)"
+"**servo.angle.step.y** = min. różnica w kątach dla wysłania komendy w osi Y, "
+"integer (1)"
 
 #: ../../source/addons.rst:170
 msgid ""
-"**servo.angle.multiplier.x** - multiplier of steps in the X axis, integer"
-" (1)"
+"**servo.angle.multiplier.x** - multiplier of steps in the X axis, integer (1)"
 msgstr "**servo.angle.multiplier.x** - mnożnik kroków w osi X, integer (1)"
 
 #: ../../source/addons.rst:172
 msgid ""
-"**servo.angle.multiplier.y** - multiplier of steps in the Y axis, integer"
-" (1)"
+"**servo.angle.multiplier.y** - multiplier of steps in the Y axis, integer (1)"
 msgstr "**servo.angle.multiplier.y** - mnożnik kroków w osi Y, integer (1)"
 
 #: ../../source/addons.rst:174
@@ -375,81 +369,75 @@ msgstr "**server.port.data** - port dla wysyłki danych na kliencie, integer (66
 
 #: ../../source/addons.rst:177
 msgid ""
-"**server.port.conn** - port for initiating connection on the client, "
-"integer (6667)"
+"**server.port.conn** - port for initiating connection on the client, integer "
+"(6667)"
 msgstr ""
-"**server.port.conn** - port dla inicjowania połaczenia na kliencie, "
-"integer (6667)"
+"**server.port.conn** - port dla inicjowania połaczenia na kliencie, integer "
+"(6667)"
 
 #: ../../source/addons.rst:180
 msgid ""
-"**server.port.status** - port for receiving status from the client, "
-"integer (6668)"
-msgstr ""
-"**server.port.status** - port dla odbioru statusu od klienta, integer "
+"**server.port.status** - port for receiving status from the client, integer "
 "(6668)"
+msgstr ""
+"**server.port.status** - port dla odbioru statusu od klienta, integer (6668)"
 
 #: ../../source/addons.rst:183
 msgid ""
-"**serial.data.baud_rate** – transfer speed for serial connections, int "
-"(9600)"
+"**serial.data.baud_rate** – transfer speed for serial connections, int (9600)"
 msgstr ""
-"**serial.data.baud_rate** – prędkość transferu dla połaczeń szeregowych, "
-"int (9600)"
+"**serial.data.baud_rate** – prędkość transferu dla połaczeń szeregowych, int "
+"(9600)"
 
 #: ../../source/addons.rst:186
 msgid ""
-"**serial.data.format** - format of data sent to the device by serial "
-"port, string [RAW|JSON] (RAW)"
+"**serial.data.format** - format of data sent to the device by serial port, "
+"string [RAW|JSON] (RAW)"
 msgstr ""
-"**serial.data.format** - format danych wysyłanych do urządzenia przez "
-"port szeregowy, string [RAW|JSON] (RAW)"
+"**serial.data.format** - format danych wysyłanych do urządzenia przez port "
+"szeregowy, string [RAW|JSON] (RAW)"
 
 #: ../../source/addons.rst:189
 msgid ""
-"**clients.conn_wait** - max. waiting time in seconds for the next "
-"connection, integer (5)"
+"**clients.conn_wait** - max. waiting time in seconds for the next connection, "
+"integer (5)"
 msgstr ""
-"**clients.conn_wait** - max. czas oczekiwania w sekundach na nast. "
-"połączenie, integer (5)"
+"**clients.conn_wait** - max. czas oczekiwania w sekundach na nast. połączenie, "
+"integer (5)"
 
 #: ../../source/addons.rst:192
 msgid ""
-"**clients.hang_time** - max. time to consider a call on hold, w seconds, "
-"integer (5)"
+"**clients.hang_time** - max. time to consider a call on hold, w seconds, integer "
+"(5)"
 msgstr ""
 "**clients.hang_time** - max. czas do uznania połączenia za zawieszone, w "
 "sekundach, integer (5)"
 
 #: ../../source/addons.rst:195
 msgid ""
-"**clients.inactive_time** - time until the connection is considered "
-"inactive, w seconds, integer (5)"
+"**clients.inactive_time** - time until the connection is considered inactive, w "
+"seconds, integer (5)"
 msgstr ""
 "**clients.inactive_time** - czas do uznania połączenia za nieaktywne, w "
 "sekundach, integer (5)"
 
 #: ../../source/addons.rst:198
 msgid ""
-"**clients.stream.jpeg** - enable/disable JPEG decompression, required if "
-"client compression is enabled, bool [1|0] (0)"
+"**clients.stream.jpeg** - enable/disable JPEG decompression, required if client "
+"compression is enabled, bool [1|0] (0)"
 msgstr ""
-"**clients.stream.jpeg** - wł./wył dekompresję JPEG, wymagane jeśli "
-"włączona jest kompresja u klienta, bool [1|0] (0)"
+"**clients.stream.jpeg** - wł./wył dekompresję JPEG, wymagane jeśli włączona jest "
+"kompresja u klienta, bool [1|0] (0)"
 
 #: ../../source/addons.rst:201
-msgid ""
-"**target.mode** - default auto mode, string [OFF|IDLE|FOLLOW|PATROL] "
-"(IDLE)"
+msgid "**target.mode** - default auto mode, string [OFF|IDLE|FOLLOW|PATROL] (IDLE)"
 msgstr ""
-"**target.mode** - domyślny tryb auto, string [OFF|IDLE|FOLLOW|PATROL] "
-"(IDLE)"
+"**target.mode** - domyślny tryb auto, string [OFF|IDLE|FOLLOW|PATROL] (IDLE)"
 
 #: ../../source/addons.rst:204
 msgid "**target.point** - default aiming point [AUTO|HEAD|NECK|BODY|LEGS] (CAR)"
 msgstr ""
-"**target.point** - domyślny punkt celowania [AUTO|HEAD|NECK|BODY|LEGS] "
-"(AUTO)"
+"**target.point** - domyślny punkt celowania [AUTO|HEAD|NECK|BODY|LEGS] (AUTO)"
 
 #: ../../source/addons.rst:207
 msgid "**target.locked** - on/off locating on object, bool [1|0] (0)"
@@ -469,8 +457,7 @@ msgstr "**target.speed** - mnożnik prędkości przy celowaniu, float (0.1)"
 
 #: ../../source/addons.rst:216
 msgid ""
-"**target.smooth** - multiplier for smoothing movement when aiming, float "
-"(1.6)"
+"**target.smooth** - multiplier for smoothing movement when aiming, float (1.6)"
 msgstr "**target.smooth** - mnożnik wygładzania ruchu przy celowaniu, float (1.6)"
 
 #: ../../source/addons.rst:219
@@ -483,19 +470,16 @@ msgstr "**target.threshold.y** - wartość spowalniająca w osi Y (0.15)"
 
 #: ../../source/addons.rst:223
 msgid ""
-"**target.brake** - on/off traffic blanking in the absence of a target, "
-"bool [1|0] (1)"
+"**target.brake** - on/off traffic blanking in the absence of a target, bool [1|"
+"0] (1)"
 msgstr ""
-"**target.brake** - wł/wył. wygaszanie ruchu w przypadku braku celu, bool "
-"[1|0] (1)"
+"**target.brake** - wł/wył. wygaszanie ruchu w przypadku braku celu, bool [1|0] "
+"(1)"
 
 #: ../../source/addons.rst:226
-msgid ""
-"**target.smooth.follow** - on/off tracking motion smoothing, bool [1|0] "
-"(0)"
+msgid "**target.smooth.follow** - on/off tracking motion smoothing, bool [1|0] (0)"
 msgstr ""
-"**target.smooth.follow** - wł/wył. wygładzanie ruchu śledzenia, bool "
-"[1|0] (0)"
+"**target.smooth.follow** - wł/wył. wygładzanie ruchu śledzenia, bool [1|0] (0)"
 
 #: ../../source/addons.rst:229
 msgid "**target.smooth.camera** - camera smoothing on/off, bool [1|0] (1)"
@@ -503,19 +487,14 @@ msgstr "**target.smooth.camera** - wł/wył wygładzania ruchu kamery, bool [1|0
 
 #: ../../source/addons.rst:232
 msgid ""
-"**target.mean.target** - on/off smoothing target coordinates, bool [1|0] "
-"(1)"
+"**target.mean.target** - on/off smoothing target coordinates, bool [1|0] (1)"
 msgstr ""
-"**target.mean.target** - wł/wył. wygładzanie koordynat celu, bool [1|0] "
-"(1)"
+"**target.mean.target** - wł/wył. wygładzanie koordynat celu, bool [1|0] (1)"
 
 #: ../../source/addons.rst:235
-msgid ""
-"**target.mean.now** - on/off smoothing tracking coordinates, bool [1|0] "
-"(1)"
+msgid "**target.mean.now** - on/off smoothing tracking coordinates, bool [1|0] (1)"
 msgstr ""
-"**target.mean.now** - wł/wył. wygładzanie koordynat śledzenia, bool [1|0]"
-" (1)"
+"**target.mean.now** - wł/wył. wygładzanie koordynat śledzenia, bool [1|0] (1)"
 
 #: ../../source/addons.rst:238
 msgid "**target.mean.cam** - on/off smoothing camera coordinates, bool [1|0] (0)"
@@ -523,51 +502,51 @@ msgstr "**target.mean.cam** - wł/wył. wygładzanie koordynat kamery, bool [1|0
 
 #: ../../source/addons.rst:241
 msgid ""
-"**target.mean.target.step** - min. movement required during smoothing "
-"target coordinate, float (0.005)"
+"**target.mean.target.step** - min. movement required during smoothing target "
+"coordinate, float (0.005)"
 msgstr ""
-"**target.mean.target.step** - min. wymagany ruch podczas wygładzania "
-"koordynat celu, float (0.005)"
+"**target.mean.target.step** - min. wymagany ruch podczas wygładzania koordynat "
+"celu, float (0.005)"
 
 #: ../../source/addons.rst:244
 msgid ""
-"**target.mean.now.step** - min. movement required during smoothing "
-"tracking coordinate, float (0.01)"
+"**target.mean.now.step** - min. movement required during smoothing tracking "
+"coordinate, float (0.01)"
 msgstr ""
-"**target.mean.now.step** - min. wymagany ruch podczas wygładzania "
-"koordynat śledzenia, float (0.01)"
+"**target.mean.now.step** - min. wymagany ruch podczas wygładzania koordynat "
+"śledzenia, float (0.01)"
 
 #: ../../source/addons.rst:247
 msgid ""
-"**target.mean.cam.step** - min. movement required during smoothing camera"
-" coordinates, float (0.01)"
+"**target.mean.cam.step** - min. movement required during smoothing camera "
+"coordinates, float (0.01)"
 msgstr ""
-"**target.mean.cam.step** - min. wymagany ruch podczas wygładzania "
-"koordynat kamery, float (0.01)"
+"**target.mean.cam.step** - min. wymagany ruch podczas wygładzania koordynat "
+"kamery, float (0.01)"
 
 #: ../../source/addons.rst:250
 msgid ""
-"**target.mean.target.depth** - number of records of previous moves during"
-" smoothing target coordinates, integer (2)"
+"**target.mean.target.depth** - number of records of previous moves during "
+"smoothing target coordinates, integer (2)"
 msgstr ""
 "**target.mean.target.depth** - ilość zapisów poprzednich ruchów podczas "
 "wygładzania koordynat celu, integer (2)"
 
 #: ../../source/addons.rst:253
 msgid ""
-"**target.mean.now.depth** - number of records of previous moves during "
-"tracking coordinate smoothing, integer (2)"
+"**target.mean.now.depth** - number of records of previous moves during tracking "
+"coordinate smoothing, integer (2)"
 msgstr ""
-"**target.mean.now.depth** - ilość zapisów poprzednich ruchów podczas "
-"wygładzania koordynat śledzenia, integer (2)"
+"**target.mean.now.depth** - ilość zapisów poprzednich ruchów podczas wygładzania "
+"koordynat śledzenia, integer (2)"
 
 #: ../../source/addons.rst:256
 msgid ""
-"**target.mean.cam.depth** - number of records of previous moves during "
-"smoothing camera coordinates, integer (2)"
+"**target.mean.cam.depth** - number of records of previous moves during smoothing "
+"camera coordinates, integer (2)"
 msgstr ""
-"**target.mean.cam.depth** - ilość zapisów poprzednich ruchów podczas "
-"wygładzania koordynat kamery, integer (2)"
+"**target.mean.cam.depth** - ilość zapisów poprzednich ruchów podczas wygładzania "
+"koordynat kamery, integer (2)"
 
 #: ../../source/addons.rst:259
 msgid "**target.action.name** - default action, string [A1|A2|A3|B4|B5|B6] (A1)"
@@ -575,11 +554,11 @@ msgstr "**target.action.name** - domyślna akcja, string [A1|A2|A3|B4|B5|B6] (A1
 
 #: ../../source/addons.rst:261
 msgid ""
-"**target.action.mode** - default action mode, string "
-"[SINGLE|CONTINUOUS|SERIES|TOGGLE] (CONTINUOUS)"
+"**target.action.mode** - default action mode, string [SINGLE|CONTINUOUS|SERIES|"
+"TOGGLE] (CONTINUOUS)"
 msgstr ""
-"**target.action.mode** - domyślny tryb dla akcji, string "
-"[SINGLE|CONTINUOUS|SERIES|TOGGLE] (CONTINUOUS)"
+"**target.action.mode** - domyślny tryb dla akcji, string [SINGLE|CONTINUOUS|"
+"SERIES|TOGGLE] (CONTINUOUS)"
 
 #: ../../source/addons.rst:264
 msgid "**target.action.enable** - on/off auto actions, bool [1|0] (0)"
@@ -591,19 +570,15 @@ msgstr "**target.action.length** - długość czasu trwania akcji, integer (10)"
 
 #: ../../source/addons.rst:268
 msgid ""
-"**target.action.switch** - length of interval between target change, "
-"integer (thirty)"
+"**target.action.switch** - length of interval between target change, integer "
+"(thirty)"
 msgstr ""
-"**target.action.switch** - długość odstępu między zmianą celu, integer "
-"(30)"
+"**target.action.switch** - długość odstępu między zmianą celu, integer (30)"
 
 #: ../../source/addons.rst:271
-msgid ""
-"**target.time.before_target** - time required before targeting, float "
-"(0.3)"
+msgid "**target.time.before_target** - time required before targeting, float (0.3)"
 msgstr ""
-"**target.time.before_target** - czas wymagany przed namierzeniem, float "
-"(0.3)"
+"**target.time.before_target** - czas wymagany przed namierzeniem, float (0.3)"
 
 #: ../../source/addons.rst:274
 msgid "**target.time.as_target** - time to be considered targeted, integer (3)"
@@ -619,11 +594,10 @@ msgstr "**target.limit.on_target** - max. licznik na celu, integer (999)"
 
 #: ../../source/addons.rst:280
 msgid ""
-"**patrol.timeout** - waiting time for starting the patrol /ms/, integer "
-"(2000)"
+"**patrol.timeout** - waiting time for starting the patrol /ms/, integer (2000)"
 msgstr ""
-"**patrol.timeout** - czas oczekiwania na uruchomienie patrolu /ms/, "
-"integer (2000)"
+"**patrol.timeout** - czas oczekiwania na uruchomienie patrolu /ms/, integer "
+"(2000)"
 
 #: ../../source/addons.rst:283
 msgid "**patrol.step** - patrol movement step, float (0.005)"
@@ -635,11 +609,10 @@ msgstr "**patrol.interval** - interwał czasowy dla ruchu patrolu, integer (600)
 
 #: ../../source/addons.rst:287
 msgid ""
-"**patrol.direction** - default patrol direction, string [LEFT|RIGHT] "
-"(RIGHT)"
+"**patrol.direction** - default patrol direction, string [LEFT|RIGHT] (RIGHT)"
 msgstr ""
-"**patrol.direction** - domyślny kierunek ruchu w patrolu, string "
-"[LEFT|RIGHT] (RIGHT)"
+"**patrol.direction** - domyślny kierunek ruchu w patrolu, string [LEFT|RIGHT] "
+"(RIGHT)"
 
 #: ../../source/addons.rst:290
 msgid "**manual.speed** - default speed of manual control, integer (20)"
@@ -647,11 +620,11 @@ msgstr "**manual.speed** - domyślna prędkość sterowania manualnego, integer 
 
 #: ../../source/addons.rst:292
 msgid ""
-"**manual.action.mode** - default action mode for manual control, string "
-"[OFF|SINGLE|CONTINUOUS|SERIES|TOGGLE] (OFF)"
+"**manual.action.mode** - default action mode for manual control, string [OFF|"
+"SINGLE|CONTINUOUS|SERIES|TOGGLE] (OFF)"
 msgstr ""
-"**manual.action.mode** - domyślny tryb akcji przy sterowaniu manualnym, "
-"string [OFF|SINGLE|CONTINUOUS|SERIES|TOGGLE] (OFF)"
+"**manual.action.mode** - domyślny tryb akcji przy sterowaniu manualnym, string "
+"[OFF|SINGLE|CONTINUOUS|SERIES|TOGGLE] (OFF)"
 
 #: ../../source/addons.rst:295
 msgid "**render.full_screen** - on/off fullscreen, bool [1|0] (0)"
@@ -712,24 +685,22 @@ msgstr "**render.montage.rows** - ilość wierszy w trybie podglądu, integer (2
 #: ../../source/addons.rst:325
 msgid "**render.montage.width** - box width in px in preview mode, integer (400)"
 msgstr ""
-"**render.montage.width** - szerokość boxa w px w trybie podglądu, integer"
-" (400)"
+"**render.montage.width** - szerokość boxa w px w trybie podglądu, integer (400)"
 
 #: ../../source/addons.rst:328
 msgid ""
-"**render.overlay.status.font.size** - font size for text for overlay, "
-"integer (1)"
+"**render.overlay.status.font.size** - font size for text for overlay, integer (1)"
 msgstr ""
-"**render.overlay.status.font.size** - rozmiar czcionki dla tekstu dla "
-"overlaya, integer (1)"
+"**render.overlay.status.font.size** - rozmiar czcionki dla tekstu dla overlaya, "
+"integer (1)"
 
 #: ../../source/addons.rst:331
 msgid ""
-"**render.overlay.status.font.thickness** - font thickness for text for "
-"overlay, integer (1)"
+"**render.overlay.status.font.thickness** - font thickness for text for overlay, "
+"integer (1)"
 msgstr ""
-"**render.overlay.status.font.thickness** - grubość czcionki dla tekstu "
-"dla overlaya, integer (1)"
+"**render.overlay.status.font.thickness** - grubość czcionki dla tekstu dla "
+"overlaya, integer (1)"
 
 #: ../../source/addons.rst:334
 msgid "**video.loop** - on/off video loop, bool [1|0] (1)"
@@ -745,27 +716,23 @@ msgstr "**area.target** - wł/wył. obszar dla śledzenia, bool [1|0] (0)"
 
 #: ../../source/addons.rst:340
 msgid ""
-"**area.target.world** - on/off mapping to the world of the area for "
-"trace, bool [1|0] (0)"
+"**area.target.world** - on/off mapping to the world of the area for trace, bool "
+"[1|0] (0)"
 msgstr ""
-"**area.target.world** - wł/wył. mapowanie do świata obszaru dla "
-"śledzenia, bool [1|0] (0)"
+"**area.target.world** - wł/wył. mapowanie do świata obszaru dla śledzenia, bool "
+"[1|0] (0)"
 
 #: ../../source/addons.rst:343
 msgid ""
-"**area.target.x** - X coordinate, normalized in the range between 0-1, "
-"float (0)"
+"**area.target.x** - X coordinate, normalized in the range between 0-1, float (0)"
 msgstr ""
-"**area.target.x** - współrzędna X, znormalizowana w zakresie 0-1, float "
-"(0)"
+"**area.target.x** - współrzędna X, znormalizowana w zakresie 0-1, float (0)"
 
 #: ../../source/addons.rst:346
 msgid ""
-"**area.target.y** - Y coordinate, normalized in the range between 0-1, "
-"float (0)"
+"**area.target.y** - Y coordinate, normalized in the range between 0-1, float (0)"
 msgstr ""
-"**area.target.y** - współrzędna Y, znormalizowana w zakresie 0-1, float "
-"(0)"
+"**area.target.y** - współrzędna Y, znormalizowana w zakresie 0-1, float (0)"
 
 #: ../../source/addons.rst:349
 msgid "**area.target.w** - width, normalized in the range between 0-1, float (0)"
@@ -781,27 +748,23 @@ msgstr "**area.patrol** - wł/wył. obszar dla patrolu, bool [1|0] (0)"
 
 #: ../../source/addons.rst:355
 msgid ""
-"**area.patrol.world** - on/off mapping to the world of the patrol area, "
-"bool [1|0] (0)"
+"**area.patrol.world** - on/off mapping to the world of the patrol area, bool [1|"
+"0] (0)"
 msgstr ""
-"**area.patrol.world** - wł/wył. mapowanie do świata obszaru dla patrolu, "
-"bool [1|0] (0)"
+"**area.patrol.world** - wł/wył. mapowanie do świata obszaru dla patrolu, bool [1|"
+"0] (0)"
 
 #: ../../source/addons.rst:358
 msgid ""
-"**area.patrol.x** - X coordinate, normalized in the range between 0-1, "
-"float (0)"
+"**area.patrol.x** - X coordinate, normalized in the range between 0-1, float (0)"
 msgstr ""
-"**area.patrol.x** - współrzędna X, znormalizowana w zakresie 0-1, float "
-"(0)"
+"**area.patrol.x** - współrzędna X, znormalizowana w zakresie 0-1, float (0)"
 
 #: ../../source/addons.rst:361
 msgid ""
-"**area.patrol.y** - Y coordinate, normalized in the range between 0-1, "
-"float (0)"
+"**area.patrol.y** - Y coordinate, normalized in the range between 0-1, float (0)"
 msgstr ""
-"**area.patrol.y** - współrzędna Y, znormalizowana w zakresie 0-1, float "
-"(0)"
+"**area.patrol.y** - współrzędna Y, znormalizowana w zakresie 0-1, float (0)"
 
 #: ../../source/addons.rst:364
 msgid "**area.patrol.w** - width, normalized in the range between 0-1, float (0)"
@@ -817,27 +780,23 @@ msgstr "**area.action** - wł/wył. obszar dla akcji, bool [1|0] (0)"
 
 #: ../../source/addons.rst:370
 msgid ""
-"**area.action.world** - on/off mapping to the world of the action area, "
-"bool [1|0] (0)"
+"**area.action.world** - on/off mapping to the world of the action area, bool [1|"
+"0] (0)"
 msgstr ""
-"**area.action.world** - wł/wył. mapowanie do świata obszaru dla akcji, "
-"bool [1|0] (0)"
+"**area.action.world** - wł/wył. mapowanie do świata obszaru dla akcji, bool [1|"
+"0] (0)"
 
 #: ../../source/addons.rst:373
 msgid ""
-"**area.action.x** - X coordinate, normalized in the range between 0-1, "
-"float (0)"
+"**area.action.x** - X coordinate, normalized in the range between 0-1, float (0)"
 msgstr ""
-"**area.action.x** - współrzędna X, znormalizowana w zakresie 0-1, float "
-"(0)"
+"**area.action.x** - współrzędna X, znormalizowana w zakresie 0-1, float (0)"
 
 #: ../../source/addons.rst:376
 msgid ""
-"**area.action.y** - Y coordinate, normalized in the range between 0-1, "
-"float (0)"
+"**area.action.y** - Y coordinate, normalized in the range between 0-1, float (0)"
 msgstr ""
-"**area.action.y** - współrzędna Y, znormalizowana w zakresie 0-1, float "
-"(0)"
+"**area.action.y** - współrzędna Y, znormalizowana w zakresie 0-1, float (0)"
 
 #: ../../source/addons.rst:379
 msgid "**area.action.w** - width, normalized in the range between 0-1, float (0)"
@@ -849,11 +808,11 @@ msgstr "**area.action.h** - wysokość, znormalizowana w zakresie 0-1, float (0)
 
 #: ../../source/addons.rst:383
 msgid ""
-"**filter.detect.classes** - class names for the detection filter, string "
-"[class1,class2,class3,...]"
+"**filter.detect.classes** - class names for the detection filter, string [class1,"
+"class2,class3,...]"
 msgstr ""
-"**filter.detect.classes** - nazwy klas dla filtra wykrywania, string "
-"[klasa1,klasa2,klasa3,...]"
+"**filter.detect.classes** - nazwy klas dla filtra wykrywania, string [klasa1,"
+"klasa2,klasa3,...]"
 
 #: ../../source/addons.rst:386
 msgid "**filter.detect.min_score** - min. detection score, float (0.2)"
@@ -861,11 +820,11 @@ msgstr "**filter.detect.min_score** - min. punktacja dla wykrywania, float (0.2)
 
 #: ../../source/addons.rst:388
 msgid ""
-"**filter.target.classes** - class names for the targeting filter, string "
-"[class1,class2,class3,...]"
+"**filter.target.classes** - class names for the targeting filter, string [class1,"
+"class2,class3,...]"
 msgstr ""
-"**filter.target.classes** - nazwy klas dla filtra namierzania, string "
-"[klasa1,klasa2,klasa3,...]"
+"**filter.target.classes** - nazwy klas dla filtra namierzania, string [klasa1,"
+"klasa2,klasa3,...]"
 
 #: ../../source/addons.rst:391
 msgid "**filter.target.min_score** - min. score for pinpointing, float (0.2)"
@@ -873,11 +832,11 @@ msgstr "**filter.target.min_score** - min. punktacja dla namierzania, float (0.2
 
 #: ../../source/addons.rst:394
 msgid ""
-"**filter.action.classes** - class names for the action filter, string "
-"[class1,class2,class3,...]"
+"**filter.action.classes** - class names for the action filter, string [class1,"
+"class2,class3,...]"
 msgstr ""
-"**filter.action.classes** - nazwy klas dla filtra akcji, string "
-"[klasa1,klasa2,klasa3,...]"
+"**filter.action.classes** - nazwy klas dla filtra akcji, string [klasa1,klasa2,"
+"klasa3,...]"
 
 #: ../../source/addons.rst:397
 msgid "**filter.action.min_score** - min. action score, float (0.2)"
@@ -885,27 +844,27 @@ msgstr "**filter.action.min_score** - min. punktacja dla akcji, float (0.2)"
 
 #: ../../source/addons.rst:399
 msgid ""
-"**video_filter.input** - default video filters for input, string "
-"[filter1,filter2,filter3,...]"
+"**video_filter.input** - default video filters for input, string [filter1,"
+"filter2,filter3,...]"
 msgstr ""
-"**video_filter.input** - domyślne filtry video dla wejścia, string "
-"[filtr1,filtr2,filtr3,...]"
+"**video_filter.input** - domyślne filtry video dla wejścia, string [filtr1,"
+"filtr2,filtr3,...]"
 
 #: ../../source/addons.rst:402
 msgid ""
-"**video_filter.output** - default video filters for output, string "
-"[filter1,filter2,filter3,...]"
+"**video_filter.output** - default video filters for output, string [filter1,"
+"filter2,filter3,...]"
 msgstr ""
-"**video_filter.output** - domyślne filtry video dla wyjścia, string "
-"[filtr1,filtr2,filtr3,...]"
+"**video_filter.output** - domyślne filtry video dla wyjścia, string [filtr1,"
+"filtr2,filtr3,...]"
 
 #: ../../source/addons.rst:405
 msgid ""
-"The analogous configuration for the web application is in the file "
-"**config.js** located in the **Web** directory."
+"The analogous configuration for the web application is in the file **config.js** "
+"located in the **Web** directory."
 msgstr ""
-"Analogiczna konfiguracja dla aplikacji webowej znajduje się w pliku "
-"**config.js** znajdującym się w katalogu **Web**."
+"Analogiczna konfiguracja dla aplikacji webowej znajduje się w pliku **config."
+"js** znajdującym się w katalogu **Web**."
 
 #: ../../source/addons.rst:409
 msgid "Software - technical data"
@@ -981,27 +940,21 @@ msgstr "Movenet (detekcja ruchu człowieka):"
 
 #: ../../source/addons.rst:447
 msgid ""
-"SinglePose Lightning v4 - "
-"https://tfhub.dev/google/movenet/singlepose/lightning/4"
+"SinglePose Lightning v4 - https://tfhub.dev/google/movenet/singlepose/lightning/4"
 msgstr ""
-"SinglePose Lightning v4 - "
-"https://tfhub.dev/google/movenet/singlepose/lightning/4"
+"SinglePose Lightning v4 - https://tfhub.dev/google/movenet/singlepose/lightning/4"
 
 #: ../../source/addons.rst:449
 msgid ""
-"SinglePose Thunder v4 - "
-"https://tfhub.dev/google/movenet/singlepose/thunder/4"
+"SinglePose Thunder v4 - https://tfhub.dev/google/movenet/singlepose/thunder/4"
 msgstr ""
-"SinglePose Thunder v4 - "
-"https://tfhub.dev/google/movenet/singlepose/thunder/4"
+"SinglePose Thunder v4 - https://tfhub.dev/google/movenet/singlepose/thunder/4"
 
 #: ../../source/addons.rst:451
 msgid ""
-"MultiPose Lightning v1 - "
-"https://tfhub.dev/google/movenet/multipose/lightning/1"
+"MultiPose Lightning v1 - https://tfhub.dev/google/movenet/multipose/lightning/1"
 msgstr ""
-"MultiPose Lightning v1 - "
-"https://tfhub.dev/google/movenet/multipose/lightning/1"
+"MultiPose Lightning v1 - https://tfhub.dev/google/movenet/multipose/lightning/1"
 
 #: ../../source/addons.rst:453
 msgid "Mobilenet (object classification):"
@@ -1301,8 +1254,8 @@ msgstr "**PIN 36** - ACTION B6 (DIGITAL, OUTPUT)"
 
 #: ../../source/addons.rst:596
 msgid ""
-"The configuration is in the **config.ini** file in the root directory of "
-"client application:"
+"The configuration is in the **config.ini** file in the root directory of client "
+"application:"
 msgstr ""
 "Konfiguracja znajduje się w pliku **config.ini** w katalogu głównym\n"
 "aplikacji klienckiej:"
@@ -1345,8 +1298,7 @@ msgstr "**PIN 13** - ACTION B6 (DIGITAL, OUTPUT)"
 
 #: ../../source/addons.rst:622
 msgid ""
-"The configuration is in a single code file for the application Arduino "
-"client:"
+"The configuration is in a single code file for the application Arduino client:"
 msgstr ""
 "Konfiguracja znajduje się w pojedyńczym pliku z kodem dla aplikacji\n"
 "klienckiej Arduino:"
@@ -1357,8 +1309,8 @@ msgstr "Format wysyłanych komend na port szeregowy"
 
 #: ../../source/addons.rst:641
 msgid ""
-"In the case of a serial connection, the syntax sent to the command port "
-"looks like this:"
+"In the case of a serial connection, the syntax sent to the command port looks "
+"like this:"
 msgstr ""
 "W przypadku połączenia szeregowego składnia wysyłanej na port komendy\n"
 "wygląda następująco:"
@@ -1381,8 +1333,8 @@ msgstr "**Y** – wartość wychylenia serwa Y (w stopniach)"
 
 #: ../../source/addons.rst:652
 msgid ""
-"**C** - the number of detected objects by AI (if the mode auto/AI, with "
-"manual it always equals 0)"
+"**C** - the number of detected objects by AI (if the mode auto/AI, with manual "
+"it always equals 0)"
 msgstr ""
 "**C** – ilość wykrytych obiektów na ekranie (jeśli tryb\n"
 "   automatyczny/AI, przy manualnym = 0)"
@@ -1449,16 +1401,16 @@ msgstr "Znak końca komendy to znak nowej linii: **\\\\n**"
 
 #: ../../source/addons.rst:681
 msgid ""
-"Command ``0`` (zero) sent to the serial port (Arduino) sends request for "
-"status response of the device/sensors."
+"Command ``0`` (zero) sent to the serial port (Arduino) sends request for status "
+"response of the device/sensors."
 msgstr ""
 "Komenda ``0`` (zero) wysłana na port szeregowy\n"
 "(Arduino) powoduje odpytanie o status urządzenia/sensorów."
 
 #: ../../source/addons.rst:684
 msgid ""
-"**The above can be used to program your own controller using a serial / "
-"UART / USB port to connect.**"
+"**The above can be used to program your own controller using a serial / UART / "
+"USB port to connect.**"
 msgstr ""
 "**Powyższe można wykorzystać do oprogramowania własnego sterownika\n"
 "używającego do połączenia portu szeregowego / UART / USB.**"
@@ -1497,4 +1449,3 @@ msgstr "info@servocam.org"
 
 #~ msgid "Version: 0.9.2 \\| 2023.03.22"
 #~ msgstr "Wersja: 0.9.2 beta \\| 2023-03-22"
-
