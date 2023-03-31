@@ -1,4 +1,4 @@
-Additional informations
+Additional information
 =======================
 
 Compiling from sources
@@ -568,7 +568,7 @@ It may happen that for various reasons the connection is broken or the client ap
 
 **No smooth movement of servos connected remotely**
 
-Depending on the speed of your connection (if it is a WIFI connection), there may be delays in sending commands and video images. To adjust the bandwidth to your connection, you can try to reduce the resolution of the transmitted video image on the client side, enable JPEG compression, or try to disable other applications that are currently using the network and generating a large load.
+Depending on the speed of your connection (if it is a WIFI connection), there may be delays in sending commands and video stream. To adjust the bandwidth to your connection, you can try to reduce the resolution of the transmitted video on the client side, enable JPEG compression, or try to disable other applications that are currently using the network and generating a large load.
 
 **Delays (lags) when connecting to the client**
 
@@ -576,7 +576,7 @@ Remote connection will always generate delays, they will vary depending on the i
 
 **GPU detection issues**
 
-The software can run on both GPU and CPU. In the absence of a suitable GPU, all calculations will be performed on the CPU. If the graphics card with GPU is not detected by the software, make sure that it is compatible with Tensor Flow and that the appropriate CUDA libraries are installed in the operating system (details of installing CUDA libraries can be found on the NVidia website).
+The software can run on both GPU and CPU. In the absence of a suitable GPU, all calculations will be performed on the CPU. If the graphics card with GPU is not detected by the software, make sure that it is compatible with Tensor Flow and that the appropriate CUDA libraries are installed in the operating system (details of installing CUDA libraries can be found on the Nvidia website or in the tutorials available on web).
 
 **The servo does not respond well to control commands**
 

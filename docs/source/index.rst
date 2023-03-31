@@ -6,8 +6,7 @@
 SERVO CAM - servocam.org
 =====================================
 
-| **Last update:** 2023.03.31 19:00
-
+| **Last update:** 2023.03.31 20:00
 | **Project website:** https://servocam.org
 | **GitHub:** https://github.com/servo-cam
 | **Release:** 0.9.3 (2023.03.30)
