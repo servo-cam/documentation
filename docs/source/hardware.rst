@@ -1,10 +1,10 @@
 Hardware
 ========
 
-Camera (CSI, USB)
------------------
+Camera (CSI, USB, HDMI)
+-----------------------
 
-The camera can be connected both via the USB connector directly to the
+The camera can be connected both via the USB or HDMI connector directly to the
 computer with the server application, and via the CSI connector to e.g.
 Raspberry (then the video from the camera will be transmitted remotely
 from the client via the network/WiFi to the server application). Local
@@ -19,15 +19,15 @@ correct mapping of the screen coords to the movements of the servos. Camera with
 incorrect FOV (i.e. not matching true angle of view) can generate too slow 
 or too fast and not good servo movement.
 
-Viewing angles (FOV) must be defined in the **config.ini** file and via **Servo > Configure servo...*** menu:
+Field of view (FOV) must be defined in the **config.ini** file and via **Servo > Configure servo...*** menu:
 
 .. code-block:: ini
 
 	# config.ini
 
 	camera.idx = 0
-	camera.fov.x=54 #<-------
-	camera.fov.y=41 # <-------
+	camera.fov.x = 54 #<-------
+	camera.fov.y = 41 # <-------
 	camera.width = 1280
 	camera.height = 720
 	camera.fps = 30
