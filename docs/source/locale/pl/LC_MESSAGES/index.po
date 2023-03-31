@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SERVO CAM\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-30 21:26+0200\n"
-"PO-Revision-Date: 2023-03-30 21:30+0200\n"
+"POT-Creation-Date: 2023-03-31 18:49+0200\n"
+"PO-Revision-Date: 2023-03-31 19:05+0200\n"
 "Last-Translator: \n"
 "Language-Team: pl <LL@li.org>\n"
 "Language: pl\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Generated-By: Babel 2.12.1\n"
 "X-Generator: Poedit 3.0.1\n"
 
-#: ../../source/index.rst:13
+#: ../../source/index.rst:15
 msgid "Contents:"
 msgstr "Spis treści:"
 
@@ -29,18 +29,22 @@ msgid "SERVO CAM - servocam.org"
 msgstr "SERVO CAM - servocam.org"
 
 #: ../../source/index.rst:9
+msgid "**Last update:** 2023.03.31 19:00"
+msgstr "**Aktualizacja:** 2023.03.31 19:00"
+
+#: ../../source/index.rst:11
 msgid "**Project website:** https://servocam.org"
 msgstr "**Strona projektu:** https://servocam.org"
 
-#: ../../source/index.rst:10
+#: ../../source/index.rst:12
 msgid "**GitHub:** https://github.com/servo-cam"
 msgstr "**GitHub:** https://github.com/servo-cam"
 
-#: ../../source/index.rst:11
-msgid "**Version:** 0.9.3 (2023.03.30)"
+#: ../../source/index.rst:13
+msgid "**Release:** 0.9.3 (2023.03.30)"
 msgstr "**Wersja:** 0.9.3 (2023.03.30)"
 
-#: ../../source/index.rst:18
+#: ../../source/index.rst:20
 msgid "Contents"
 msgstr "Spis treści"
 

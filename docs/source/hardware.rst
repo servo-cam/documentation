@@ -133,12 +133,12 @@ angles that the servo can perform - all these parameters must be defined
 in the configuration files. A detailed description of the parameters can
 be found in the further part of the manual.
 
-From release 0.9.3 you can configure all those base options via **Servo > Configure servo...** settings:
+**Tip:** From release >=0.9.3 you can configure all those base options via **Servo > Configure servo...** settings window:
 
 .. image:: images/app/servo_config.png
    :width: 800
 
-**Note:** if you use Arduino then you must also specify correct pulse width in **Arduino** code (available in **Client** directory):
+**Note:** if you are using Arduino then you must also specify correct pulse range in **Arduino** code (available in **Client** directory):
 
 .. code-block:: c++
 
@@ -147,7 +147,7 @@ From release 0.9.3 you can configure all those base options via **Servo > Config
 	#define SERVO_Y_PULSE_MIN 771 // servo Y min pulse
 	#define SERVO_Y_PULSE_MAX 2193 // servo Y max pulse
 
-If you are using Raspberry GPIO to controll servo then specify these options in **config.ini** in client's directory:
+If you are using Raspberry GPIO pins to control the servos then specify these options in **config.ini** placed in client's directory:
 
 
 .. code-block:: ini
@@ -179,4 +179,7 @@ If you are using Raspberry GPIO to controll servo then specify these options in 
 	servo.angle.multiplier.x = 1
 	servo.angle.multiplier.y = 1
 
-**INCORRECT SERVO CONFIGURATION MAY DAMAGE THEM!**
+
+**Tip:** The appropriate operating parameters of your servo can be found in the manufacturer's documentation. You can also try to set these parameters by trial and error method, sending commands to the servo manually and trying to find the appropriate values at which the servo responds best.
+
+**INCORRECT SERVOS CONFIGURATION MAY DAMAGE THEM!**

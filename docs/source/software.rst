@@ -686,9 +686,10 @@ Configuration
 ^^^^^^^^^^^^^^^^^
 
 When the application starts, the entire configuration is loaded from the
-**config.ini** file located in the application directory. The file is
-copied to the user's directory in the system and read from there. By
-modifying this file, you can change the startup parameters of the
+**config.ini** file located in the user home dir directory. The file is
+copied from app directory to the user's home directory in the system at 
+first launch and then is readed from there. 
+By modifying this file (in your home dir), you can change the startup parameters of the
 application.
 
 The file can be edited directly from the application - in the
@@ -724,12 +725,27 @@ found later in the documentation.**
 ^^^^^^^^^^^^^^^^^^^^
 
 When the application starts, the list of clients is loaded from the
-**hosts.txt** file located in the application directory. By modifying
-this file, you can set your own list of customers list loaded by default
+**hosts.txt** file located in the user home directory. The file is
+copied from app directory to the user's home directory in the system at 
+first launch and then is readed from there. By modifying
+this file (in your home dir), you can set your own list of clients list loaded by default
 in the application.
 
 The file can be edited directly from the application, in the
 **Configuration > Edit hosts.txt** menu option.
+
+"streams.txt" file
+^^^^^^^^^^^^^^^^^^^^
+
+When the application starts, the list of hosts with streams is loaded from the
+**streams.txt** file located in the user home directory. The file is
+copied from app directory to the user's home directory in the system at 
+first launch and then is readed from there. By modifying
+this file (in your home dir), you can set your own list of hosts list loaded by default
+in the application.
+
+The file can be edited directly from the application, in the
+**Configuration > Edit streams.txt** menu option.
 
 Client - client application (Python, Raspberry, PC, Arduino)
 ------------------------------------------------------------
@@ -1353,7 +1369,7 @@ Arduino
 ~~~~~~~
 
 In Arduino, sending your status can be defined in the client code, which
-is uploaded to the board. The code is in the **Client/Arduino** 
+is uploaded to the board. The code is in the **Client / Arduino** 
 directory, it's written in C++.
 
 To add your own status, add your code to the **get_status()** function.
@@ -1380,3 +1396,48 @@ Example of use:
    void loop() {
       // ...
    }
+
+
+Updating to newer versions
+--------------------------
+
+The current version of the software is always available for download on the project website.
+
+When upgrading from an older version to a newer version, it is always a good idea to ensure that the version of the server software matches the version of the client software. Appropriate versions of both server and client are always in the archive with a given version. The required versions are also always listed on GitHub - for example, to check what client version the server software requires in its current version, just look at the ``README.md`` file located on GitHub in the root directory of the repository:
+
+
+https://github.com/servo-cam/server
+
+
+.. code-block:: ini
+
+   # README.md
+
+   ...
+
+   Release: 0.9.3 | 2023.03.30
+
+   Requires client app: >= 0.9.2 # <----
+
+
+Similarly, to check what version of server software a given client version requires, check its requirements in the repository:
+
+https://github.com/servo-cam/client
+
+
+.. code-block:: ini
+
+   # README.md
+
+   ...
+
+   Release: 0.9.2 | 2023.03.27
+
+   Requires server app: >= 0.9.2 # <----
+
+
+Updating the client software - if it is on a remote Raspberry - can be done remotely by logging into a Raspberry connected to the network, e.g. using SSH. The update usually consists only of replacing old files with new ones and restarting the running software or device. If additional steps are required (such as installing additional libraries) it will always be described in the manual.
+
+When updating the client software, remember to modify your configuration file ``config.ini`` located in the main directory of the client. It's best to just not overwrite the old ``config.ini`` file - if it is necessary to replace it (e.g. its format changes or additional configuration options appear) it will always be described in the manual - in any other case you can use the old one, already configured ``config.ini`` file.
+
+Configuration files for the server application are stored in the user's directory - updating the software to the new version of the application does not overwrite them - they are shared between different versions of the application.

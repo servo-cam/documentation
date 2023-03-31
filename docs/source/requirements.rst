@@ -194,7 +194,7 @@ Connecting pins in **Raspberry** (remotely), on the example of
 **Raspberry Pi 3 Model A+**:
 
 **The ground (GND) of the servo power supply must be additionally
-connected to the GND pin of the Raspberry in this system.**
+connected to the GND pin of the Raspberry in this configuration.**
 
 **Note:** instead of via the microUSB input (as in the diagram), the
 Raspberry can be connected directly to the 5V power board using the 5V
@@ -254,6 +254,16 @@ Uno** / **Arduino Nano**:
 
 The pin configuration can be changed in the C++ code
 included for Arduino - the code is in the **Client / Arduino** directory.
+
+**Tip:** Direct, local connection of the camera and servos to a computer with a 
+server management application (desktop) is the most reliable solution 
+and allows for the fastest data transfer and the shortest response time. 
+The downside of this connection is the lack of remote control, however, 
+remote control in this configuration can be obtained by connecting via 
+the network to the controlling computer, e.g. using VNC. 
+Another option may be to use an active USB extension cable and use 
+it to connect equipment located at a large distance from 
+the controlling computer.
 
 USB + Raspberry Pi
 ~~~~~~~~~~~~~~~~~~

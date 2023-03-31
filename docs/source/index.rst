@@ -6,9 +6,11 @@
 SERVO CAM - servocam.org
 =====================================
 
+| **Last update:** 2023.03.31 19:00
+
 | **Project website:** https://servocam.org
 | **GitHub:** https://github.com/servo-cam
-| **Version:** 0.9.3 (2023.03.30)
+| **Release:** 0.9.3 (2023.03.30)
 
 .. toctree::
    :maxdepth: 3
