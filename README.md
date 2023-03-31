@@ -12,7 +12,7 @@ GitHub: https://github.com/servo-cam
 
 Release: **0.9.3** | 2023.03.30
 
-Last update: 2023.03.31 20:00
+Last update: 2023.03.31 20:20
 
 ------
 (c) 2023, servocam.org
